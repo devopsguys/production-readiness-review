@@ -1,2 +1,2 @@
 # production-readiness-review
-Open Source repository for Operational Readiness Review
+Open Source repository for Production Readiness Review
