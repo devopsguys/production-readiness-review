@@ -1,0 +1,808 @@
+[
+	{
+		"//" : "Copyright 2018 Atos SE and Worldline",
+		"//" : "Licensed under MIT (https://github.com/atosorigin/DevOpsMaturityAssessment/blob/master/LICENSE)",
+		"SectionName" : "Introduction",
+		"Questions" : [
+			{
+				"Type" : "Banner",
+				"QuestionText" : "The goal of this questionnaire is to help you assess the Operational Readiness maturity of your service and to help you understand what might be the appropriate next steps for you on your Operational Readiness journey.<br><br>These questions are intended to be completed for one team (typically reporting to the same line manager and usually consisting of between 5 and 15 people)."
+			}
+		]
+	},
+	{
+		"SectionName" : "Service Levels",
+		"SpiderPos" : 1,
+		"Questions" : [
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Prioritise Service Levels appropriately. This helps identify how much effort to allocate for reliability of each service. This is important for microservices so teams can reliably build dependencies on your service."
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Service Levels",
+				"QuestionText" : "Does the service have Service Level Agreements with internal or external users?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.5},
+					{"Answer" : "No", "Score" : 0}
+					]
+			},		
+			{
+				"Type" : "Banner",
+				"SubCategory" : "Service Levels",
+				"QuestionText" : "<B>INFORMATION:</B> SLIs (Service Level Indicators). SLI's should be measurable and taken from monitoring the environment. If the monitoring detects that the service degrades, this should trigger an actionable alert or automated remediation. You should use shorter timeframes here when looking for issues, for example hourly. Examples might be: <ul><li>Request Latency – 99% of requests per hour for a service are served within 300ms.</li><li>Failures per total number of requests – 99% of requests per hour are successfully completed</li></ul>"
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Service Levels",
+				"QuestionText" : "Do you employ Service Level Indicators to monitor the service?",
+				"Answers" : [
+					{"Answer" : "Yes, taken from monitoring, and there are actionable alerts if the service degrades", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]
+			},
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> SLOs should be in place and give common incentives across teams. These should act as an early warning system to alert Operations that there is a potential issue before SLAs are exceeded, and provide realistic goals around reliability. Typically, these are measured over longer timeframes than SLIs. <br><br>Error Budgets & Error Budget Policy (consequences) should be defined within certain guidelines. For example:<ul><li>Must be set at the appropriate levels</li><li>Too high and costs can rise rapidly</li><li>Smaller error budget which can impede change</li><li>Too low and your customers will be unhappy</li><ul>"
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Service Levels",
+				"QuestionText" : "Are there Service Level Objectives with consequences?",
+				"Answers" : [
+					{"Answer" : "Yes, and the consequences are effective", "Score" : 0.25},
+					{"Answer" : "Yes, but the consequences are not always effective", "Score" : 0.10},
+					{"Answer" : "No", "Score" : 0}
+					]
+			},
+						{
+				"Type" : "Option",
+				"SubCategory" : "Make tomorrow better than today",
+				"QuestionText" : "Do key Operations staff have the ability to regulate Operations workload (Manual, Repetitive, Automatable, Reactive, Lacks enduring value) vs Engineering (building monitoring tools for example)?",
+				"Answers" : [
+					{"Answer" : "Yes, Operations workloads above bounded to < 50% of Operations for key Operations staff", "Score" : 0.5},
+					{"Answer" : "No", "Score" : 0}
+					]
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Make tomorrow better than today",
+				"QuestionText" : "Do you follow an agreed procedure before handing a service over to Operations?",
+				"Answers" : [
+					{"Answer" : "Yes, you ensure a shared responsibility model and that the Platform is safe to operate before handover", "Score" : 0.5},
+					{"Answer" : "No", "Score" : 0}
+					]
+			},
+			{
+				"Type" : "Checkbox",
+				"SubCategory" : "Make tomorrow better than today",
+				"QuestionText" : "In which of the following areas do your Operations staff have the skills to make tomorrow better than today? (tick all that apply)",
+				"Answers" : [
+						{"Answer" : "Contribution to application and infrastructure architecture", "Score" : 0.25},
+						{"Answer" : "Monitoring", "Score" : 0.25},
+						{"Answer" : "CI/CD Pipelines", "Score" : 0.25},
+						{"Answer" : "Consulting to Developers to up-skill them / improve Operability early on", "Score" : 0.25}
+					]
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "DR",
+				"QuestionText" : "Have you completed a successful Restore from Backup in the last 12 months?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "DR",
+				"QuestionText" : "Do you perform regular and recorded Disaster Recovery procedures for the service?",
+				"Answers" : [
+					{"Answer" : "Yes, including documenting of date of last and next DR Test", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "DR",
+				"QuestionText" : "Which of the following best describes your patching strategy?",
+				"Answers" : [
+					{"Answer" : "Fully automated patching process", "Score" : 1},
+					{"Answer" : "Partially automated patching process", "Score" : 0.75},
+					{"Answer" : "Manual patching process", "Score" : 0}
+					]
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "DR",
+				"QuestionText" : "What is the closest match to your availability requirements for the service?",
+				"Answers" : [
+					{"Answer" : "8/5", "Score" : 0.25},
+					{"Answer" : "24/5", "Score" : 0.25},
+					{"Answer" : "24/7", "Score" : 0.25}
+					]
+			}
+		]
+	},
+	{
+		"SectionName" : "Architecture Design Review",
+		"SpiderPos" : 2,
+		"Questions" : [
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Highly Available & Redundant"
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Highly Available and Redundant",
+				"QuestionText" : "Are all internal and external dependencies for your services understood, identified, and visualised?",
+				"Answers" : [
+					{"Answer" : "Yes with diagrams e.g. for Third-party services, monitoring, networking", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]
+			},
+		
+			{
+				"Type" : "Option",
+				"SubCategory" : "Highly Available and Redundant",
+				"QuestionText" : "Is your service able to automatically handle spikes in traffic or usage volumes with no impact to end users?",
+				"Answers" : [
+					{"Answer" : "Yes for each component and for traffic volume, launch spikes e.g. using relevant mitigation such as Sizing, Auto-scaling, Containers, serverless architecture etc", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Highly Available and Redundant",
+				"QuestionText" : "How do you know when your service needs more capacity?",
+				"Answers" : [
+					{"Answer" : "Automated increase, with regular Load Testing identifying capacity requirements before Production (daily/weekly)", "Score" : 1},
+					{"Answer" : "Manual regular checks (monthly/quarterly)", "Score" : 0.25},
+					{"Answer" : "Ad-hoc", "Score" : 0}
+					]
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Highly Available and Redundant",
+				"QuestionText" : "How quickly can you add more capacity?",
+				"Answers" : [
+					{"Answer" : "Key dependencies automate increase", "Score" : 1},
+					{"Answer" : "Manual changes required, completed before impact", "Score" : 0.25},
+					{"Answer" : "On occasion, capacity limits are hit", "Score" : 0}
+					]
+			},
+			{
+				"Type" : "Checkbox",
+				"SubCategory" : "Highly Available and Redundant",
+				"QuestionText" : "When considering your application architecture, have you put in place mitigation for the following failure scenarios? Mitigation could include any form of high availability, scaling, the use of containers, serverless architecture, or other mitigating technology (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Backend server role dies", "Score" : 1},
+					{"Answer" : "Rack fails or cluster goes offline", "Score" : 1},
+					{"Answer" : "Terminate or restart without affecting clients or users", "Score" : 1},
+					{"Answer" : "Load balancing, rate-limiting, timeout, retry and error handling behaviour", "Score" : 1},
+					{"Answer" : "Location becomes unavailable", "Score" : 1},
+					{"Answer" : "Region becomes unavailable", "Score" : 1}
+					]
+			},
+			{
+				"Type" : "Checkbox",
+				"SubCategory" : "SPOF",
+				"QuestionText" : "In order to avoid SPoF (Single Points of Failure) for key dependencies, has your service been designed to withstand component failures? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Yes with services running in clusters scaled across locations/AZs/Regions with data replication", "Score" : 1},
+					{"Answer" : "Yes by monitoring of expiry dates in place for critical dependencies e.g. certificates, service accounts, access keys in platform and application", "Score" : 1},
+					{"Answer" : "Yes components can continue to serve requests in a degraded manner when dependencies are unhealthy. The component itself does not report as unhealthy. ", "Score" : 0.5},
+					{"Answer" : "Yes due to loose coupling of queuing systems, streaming systems, workflows, load balancers etc", "Score" : 1},
+					{"Answer" : "Yes with graceful degradation, avoiding accidentally overrunning third-party services", "Score" : 0.5},
+					{"Answer" : "Yes by playing nicely with syndicated partners, mail systems, services", "Score" : 0.5}
+					]
+			},
+			{
+				"Type" : "Checkbox",
+				"SubCategory" : "SPOF",
+				"QuestionText" : "Which of the following cloud design principles have been followed to ensure that your service is scalable, resilient, and manageable (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Design for self healing. In a distributed system, failures happen. Design your application to be self healing when failures occur.", "Score" : 1},
+					{"Answer" : "Make all things redundant. Build redundancy into your application, to avoid having single points of failure.", "Score" : 1},
+					{"Answer" : "Minimize coordination. Minimize coordination between application services to achieve scalability.", "Score" : 1},
+					{"Answer" : "Design to scale out. Design your application so that it can scale horizontally, adding or removing new instances as demand requires.", "Score" : 1},
+					{"Answer" : "Partition around limits. Use partitioning to work around database, network, and compute limits.", "Score" : 1},
+					{"Answer" : "Design for operations. Design your application so that the operations team has the tools they need.", "Score" : 1},
+					{"Answer" : "Use managed services. When possible, use platform as a service (PaaS) rather than infrastructure as a service (IaaS).", "Score" : 1},
+					{"Answer" : "Use the best data store for the job. Pick the storage technology that is the best fit for your data and how it will be used.", "Score" : 1},
+					{"Answer" : "Design for evolution. All successful applications change over time. An evolutionary design is key for continuous innovation.", "Score" : 1},
+					{"Answer" : "Build for the needs of business. Every design decision must be justified by a business requirement.", "Score" : 1}
+					]
+			},
+
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> On-boarding new developers"
+			},
+			{
+				"Type" : "Checkbox",
+				"SubCategory" : "On-boarding staff",
+				"QuestionText" : "How do you effectively ensure that people reacting to incidents have the necessary skill set to troubleshoot the entire tech stack? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Standardise on libraries, languages for easier developer onboarding and Production troubleshooting", "Score" : 0.75},
+					{"Answer" : "Spot duplicate code and refactor", "Score" : 0.75},
+					{"Answer" : "Look for opportunities to implement good design patterns", "Score" : 0.75},
+					{"Answer" : "Know your licenses - Open Source Permissive (MIT/Apache) vs Copy Left (GNU/MPL) etc", "Score" : 0.25}
+					]
+			},
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Security Best Practice Review"
+			},
+			
+			{
+				"Type" : "Checkbox",
+				"SubCategory" : "Security",
+				"QuestionText" : "Which of the following security measures are a top priority your teams? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Ensure no credentials stored in app", "Score" : 0.5},
+					{"Answer" : "Code defensively for OWASP e.g. SQL injections, XSS attacks etc", "Score" : 0.5},
+					{"Answer" : "Leverage Static Analysis Tools", "Score" : 0.5},
+					{"Answer" : "Code check-in validation", "Score" : 0.5}
+					]
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Security",
+				"QuestionText" : "Are you meeting regulations regarding the security of your service?",
+				"Answers" : [
+					{"Answer" : "All regulations complied with", "Score" : 1},
+					{"Answer" : "Unsure or not demonstrated regulations are complied with", "Score" : 0}
+					]
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Security",
+				"QuestionText" : "Do you perform regular and recorded penetration testing for the service?",	
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]		
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Security",
+				"QuestionText" : "Do you review and audit the management of secrets (passwords, keys, certificates) used in your service?",	
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]				
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Security",
+				"QuestionText" : "Do you audit and regularly review the use of privileged administrator accounts?",	
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]			
+			},
+			{
+				"Type" : "Banner",
+				"SubCategory" : "Continuous Improvement",
+				"QuestionText" : "<B>INFORMATION:</B> Continuous Improvement: Obtain Peer Review / Fresh eyes. Use Kaizen (small, ongoing positive improvements of working practices). Consider rotating developers off projects every few months to gain fresh eyes on projects. This is easier when pushing small batches."
+			},
+			{
+				"Type" : "Checkbox",
+				"SubCategory" : "Security",
+				"QuestionText" : "Do you use Continuous Improvement in any of the following areas? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Code - via Peer Review", "Score" : 0.5},
+					{"Answer" : "Architecture", "Score" : 0.5},
+					{"Answer" : "Interviewing", "Score" : 0.25}
+					]
+			}
+		]
+	},
+	{
+		"SectionName" : "Performance",
+		"SpiderPos" :3,
+		"Questions" : [
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Run Load Tests & Understand Limits"
+			},
+			{
+				"Type" : "Option",
+				"QuestionText" : "Do you know where your performance ceilings are before your service goes live?",	
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"QuestionText" : "Do you know the minimum capacity of your environment to run your service during average load?",	
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"QuestionText" : "Do you know the maximum throughput you can handle with current architecture?",	
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"QuestionText" : "Do you calculate service throughput so that your auto-scaling operates in a cost optimised way?",	
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			}
+		]
+	}
+	,
+	{
+		"SectionName" : "Documentation",
+		"SpiderPos" : 4,
+		"Questions" : [
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Documentation for your App and Platform"
+			},
+			{
+				"Type" : "Checkbox",
+				"QuestionText" : "Which of the following does your code documentation address? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Documentation is stored close to your code e.g. Readme in code and links to wiki / alternative, including how to install, troubleshoot", "Score" : 0.25},
+					{"Answer" : "Describes what does the code does", "Score" : 1},
+					{"Answer" : "How to install & run the code", "Score" : 1}
+					]
+			},			
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Documentation - Standard Operating Procedures"
+			},
+			{
+				"Type" : "Checkbox",
+				"QuestionText" : "Which Standard Operating Procedures does your documentation provide for the code and platform? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "How to configure it", "Score" : 1},
+					{"Answer" : "How to interact with it (stop, start, restart)", "Score" : 1}
+					]
+			},
+			{
+				"Type" : "Checkbox",
+				"QuestionText" : "How do you ensure that people responding to incidents have all the necessary information available to them to effectively troubleshoot the issue? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Standard Operating Procedures", "Score" : 1},
+					{"Answer" : "Application Run Books - Set actions (documentation) for resolving issues", "Score" : 1},
+					{"Answer" : "Application Run Books - Set actions (automated) for resolving issues", "Score" : 1},
+					{"Answer" : "Application Run Books - Out of hours scenarios", "Score" : 1}
+					]
+			}
+		]
+	},
+	{
+		"SectionName" : "Observability",
+		"SpiderPos" : 5,
+		"Questions" : [
+
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Monitoring - Insight"
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Monitoring - Insight",
+				"QuestionText" : "Have you considered all of the possible failures that you may see with your service, and ensured that they are monitored for and contribute to visualisations and dashboards you can access when assessing the health of your service?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.5},
+					{"Answer" : "No", "Score" : 0}
+					]					
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Monitoring - Insight",
+				"QuestionText" : "As you encounter false positives through monitoring that are displayed on your dashboards (possibly obscuring real failures), do you ensure that these are continually updated and improved upon so that they won't occur in the future?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.5},
+					{"Answer" : "No", "Score" : 0}
+					]		
+			},	
+			{
+				"Type" : "Option",
+				"SubCategory" : "Monitoring - Insight",
+				"QuestionText" : "Have you considered what information needs to be easily available and displayed on your dashboards, so as to not provide too much information that can be difficult to assess at a glance?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.5},
+					{"Answer" : "No", "Score" : 0}
+					]		
+			},	
+			{
+				"Type" : "Checkbox",
+				"SubCategory" : "Monitoring - Insight",
+				"QuestionText" : "Are Developers empowered/encouraged/supported to build monitoring as part of the core service features in Production & Non-Production environments with the same tools? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Able to build Dashboards", "Score" : 0.5},
+					{"Answer" : "Building Dashboards", "Score" : 0.5},
+					{"Answer" : "Providing Operations with early insight into what is coming to Prod", "Score" : 0.5},
+					{"Answer" : "Close Feedback loops: Operations staff able to let Devs see how their software operates (ceremonies / information radiators)", "Score" : 0.5}
+					]
+			},
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Monitoring - Customer"
+			},
+			{
+				"Type" : "Checkbox",
+				"SubCategory" : "Monitoring - Customer",
+				"QuestionText" : "For the customer focused monitoring, do you understand how customers use the software / where they fall out of process / where they get frustrated? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Tools in place for browser Analytics capturing actual customer experience", "Score" : 0.25},
+					{"Answer" : "Metrics monitored have adequate coverage", "Score" : 0.25},
+					{"Answer" : "Using percentiles to expose where users are experiencing issues (averages hide issues) e.g. have alarms for: 99, 90, 75, vs steady state e.g. mean, median as relevant?", "Score" : 0.25},
+					{"Answer" : "Close Feedback loops: Operations staff able to let Devs see how their software operates (ceremonies / information radiators)", "Score" : 0.25},
+					{"Answer" : "Real User Monitoring (RUM) active - e.g. javascript in browser reporting real user experience e.g. includes page load times, DNS issues, traffic bottlenecks etc", "Score" : 0.25}
+				]
+			},
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Monitoring - Code"
+			},
+			{
+				"Type" : "Checkbox",
+				"SubCategory" : "Monitoring - Code",
+				"QuestionText" : "Code monitoring is in place and effective? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Synthetic Transaction Monitoring: Automated artificial testing in place to measure performance", "Score" : 0.25},
+					{"Answer" : "Tools in place for APM (Application Performance Monitoring)", "Score" : 0.25},
+					{"Answer" : "Tools in place for Log Analytics", "Score" : 0.25},
+					{"Answer" : "Visibility into how app is performing internally e.g. how long are calls to resources taking", "Score" : 0.25},
+					{"Answer" : "Metrics trending up or down visible and alerted where critical", "Score" : 0.25},
+					{"Answer" : "The tools indicate what part of the app is generating the highest number of errors", "Score" : 0.25}
+				]
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Monitoring - Code",
+				"QuestionText" : "Is effective error and performance instrumentation built into the code of your service as standard?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Monitoring - Code",
+				"QuestionText" : "To enable continuous improvement and learn from the service under inspection, does your service have monitoring that will appear 'off' when unhealthy? ",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.5},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Monitoring - Code",
+				"QuestionText" : "Do you use proactive monitoring of databases to flag issues before they impact a service? E.g. To provide insights into under-performing queries or plans?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.5},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Monitoring - Code",
+				"QuestionText" : "Do you have visibility of, and can you track, the changes in configuration for each component of your service ? (Drift Management)",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Monitoring - Security"
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Monitoring - Security",
+				"QuestionText" : "Have you ensured that your monitoring and logging solutions are effective for auditing and compliance, plus any governance requirements you may have?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Monitoring - Security",
+				"QuestionText" : "Does your monitoring include threat detection?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Monitoring - Team / access"
+			},
+			{
+				"Type" : "Checkbox",
+				"SubCategory" : "Monitoring - Team",
+				"QuestionText" : "All Teams including all Developers have at least read-access to the monitoring? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Insight (Dashboards & Visualisations)", "Score" : 1},
+					{"Answer" : "Customer (Browser Analytics & Real User Monitoring)", "Score" : 1},
+					{"Answer" : "Code (Synthetic Transaction Monitoring, Application Performance Monitoring & Log Analytics", "Score" : 1},
+					{"Answer" : "Core (Services & Infrastructure)", "Score" : 1},
+					{"Answer" : "Security", "Score" : 1}
+					]
+			},
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Logging"
+			},	
+			{
+				"Type" : "Option",
+				"SubCategory" : "Logging",
+				"QuestionText" : "Do you use a consistent format and central location for logging?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Logging",
+				"QuestionText" : "Do your logs contain event severity levels (e.g. informational, warning, critical) and user consistent timestamps across components including UTC & microseconds?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Logging",
+				"QuestionText" : "Is it easy to correlate transactional events across components in your service? For example, do you have an end-to-end view of the data flow or user journey?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Logging",
+				"QuestionText" : "Do you review and act on your accumulated logging data to consider how analytics will be used on this?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Banner",
+				"QuestionText" : "<B>INFORMATION:</B> Alerting"
+			},	
+			{
+				"Type" : "Option",
+				"SubCategory" : "Alerting",
+	     		"QuestionText" : "Does a 3rd party manage the hosting of your alerting solution? Non-core activity so you may leverage a 3rd party managed service",
+				 "Answers" : [
+					 {"Answer" : "Yes", "Score" : 0.25},
+					 {"Answer" : "No", "Score" : 0}
+					 ]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Alerting",
+				"QuestionText" : "Are all of your alerts meaningful, not too chatty, and actionable by the person receiving them? For example, if there is an issue that is resolved using automation then alerting on it would be neither meaningful or actionable",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Alerting",
+				"QuestionText" : "Where certain events are expected - for example high CPU or Memory usage surrounding an auto-scaling event - do you avoiding alerting on these events?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Alerting",
+				"QuestionText" : "Do you have procedures in place that ensures alerts will reach the right people. For example, routing alerts differently depending on whether it occurs during or outside of working hours?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.5},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Alerting",
+				"QuestionText" : "Do your alerts integrate with a ticketing system to auto-create incidents or issues from specific alert types?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Alerting",
+				"QuestionText" : "Are your escalation paths for alerts clearly defined?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Alerting",
+				"QuestionText" : "Do you have a system in place whereby Priority 1 alerts will automatically escalate when they are not acknowledged in a specific timeframe?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Alerting",
+				"QuestionText" : "Do you review acknowledged or silenced alerts on a regular basis?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Checkbox",
+				"SubCategory" : "Alerting",
+				"QuestionText" : "Do you have alerting in place for the following? (tick all that apply)",
+				"Answers": [
+					{"Answer" : "Infrastructure ", "Score" : 1},
+					{"Answer" : "Application ", "Score" : 1},
+					{"Answer" : "Database", "Score" : 0.5},
+					{"Answer" : "Security", "Score" : 1},
+					{"Answer" : "Network", "Score" : 0.5}
+					]
+			},
+			{
+				"Type" : "Option",
+				"SubCategory" : "Alerting",
+				"QuestionText" : "Are the teams responsible for the above clearly identified?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			}
+
+		]
+	},
+	
+	{
+		"SectionName" : "Testing",
+		"SpiderPos" : 6,
+		"Questions" : [
+			{
+				"Type" : "Option",
+				"QuestionText" : "Do you use the test driven development (TDD) software development process?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.5},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"QuestionText" : "Roughly what percentage of your code is covered by either manual or automated testing? Noting the number is very much context dependent",
+				"Answers": [
+					{"Answer" : "70% or more", "Score" : 0.25},
+					{"Answer" : "20%-69%", "Score" : 0.25},
+					{"Answer" : "< 20%", "Score" : 0},
+					{"Answer" : "Not measured", "Score" : 0}
+					]
+			},
+			{
+				"Type" : "Option",
+				"QuestionText" : "Do you use automated testing as part of your build and release process?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"QuestionText" : "Do you run automated User Interface tests?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.25},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"QuestionText" : "Do you know how many critical or high-priority bugs are open for your service?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.5},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			}
+		]
+	}
+	,
+	{
+		"SectionName" : "Deployment Strategy",
+		"SpiderPos" : 7,
+		"Questions" : [
+			{
+				"Type" : "Option",
+				"QuestionText" : "Do you use an artifact repository tool to store and version control build artifacts?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 0.5},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"QuestionText" : "Is your deployment mechanism automated?",
+				"Answers" : [
+					{"Answer" : "Fully automated with automated rollback", "Score" : 0.5},
+					{"Answer" : "Fully automated with manual rollback", "Score" : 0.5},
+					{"Answer" : "Fully automated with no rollback", "Score" : 0.5},
+					{"Answer" : "Partially automated", "Score" : 0.25},
+					{"Answer" : "Not automated", "Score" : 0}
+					]
+			},
+			{
+				"Type" : "Option",
+				"QuestionText" : "Can you deploy changes without a maintenance window as an outage is not required?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Option",
+				"QuestionText" : "Are the Deployment tools and process documented and available to all people that will need them?",
+				"Answers" : [
+					{"Answer" : "Yes", "Score" : 1},
+					{"Answer" : "No", "Score" : 0}
+					]	
+			},
+			{
+				"Type" : "Checkbox",
+				"QuestionText" : "Are your databases and database changes deployed using an automated mechanism? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Avoid removing columns/changing type of columns, only made additions to reduce risk", "Score" : 0.5},
+					{"Answer" : "Test migrations against test copies of Production-like database", "Score" : 0.5},
+					{"Answer" : "Keep revision history of database migrations for reference", "Score" : 0.5},
+					{"Answer" : "Snapshot databases before doing migrations", "Score" : 0.5}
+					]
+			},
+			{
+				"Type" : "Checkbox",
+				"QuestionText" : "Do you use canary or blue/green techniques to reduce downtime and risk? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Canary Pools e.g. direct % of traffic to new version of app, then increase % gradually", "Score" : 0.25},
+					{"Answer" : "Blue/Green deployments (switch from one to the other)", "Score" : 0.25}
+					]
+			},
+			{
+				"Type" : "Checkbox",
+				"QuestionText" : "Able to use Dark Deploys & Feature Flags? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Using 3rd party Feature Flag solution?", "Score" : 0.25},
+					{"Answer" : "Opt In - Test new features with selected users?", "Score" : 0.25},
+					{"Answer" : "Kill Switch - Disable poorly performing features?", "Score" : 0.25},
+					{"Answer" : "Scalable Roll Outs - Do % roll outs of new features?", "Score" : 0.25},
+					{"Answer" : "Block Users - Prevent selected users from features?", "Score" : 0.25}
+					]
+			},
+			{
+				"Type" : "Checkbox",
+				"QuestionText" : "Which of the following deployment techniques do you employ? (tick all that apply)",
+				"Answers" : [
+					{"Answer" : "Run A/B Tests?", "Score" : 0.25},
+					{"Answer" : "Sunset Old Features - Safely decommission old features?", "Score" : 0.25}
+					]
+			}
+		]
+	}
+]	
