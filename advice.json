@@ -1,0 +1,336 @@
+{
+	"//" : "Copyright 2018 Atos SE and Worldline",
+	"//" : "Licensed under MIT (https://github.com/atosorigin/DevOpsMaturityAssessment/blob/master/LICENSE)",
+	
+	"Service Levels" : {
+		"Advice" : "A great place to start is by reading the reading the Google SRE guides and books",
+		"Links" : [
+			{
+				"Type" : "Website",
+				"Text" : "Google SRE Fundamentals",
+				"Href" : "https://cloud.google.com/blog/products/gcp/sre-fundamentals-slis-slas-and-slos"
+			},
+			{
+				"Type" : "Video",
+				"Text" : "SLIs, SLOs, SLAs, oh my! (class SRE implements DevOps)",
+				"Href" : "https://www.youtube.com/watch?v=tEylFyxbDLE"
+			},
+			{
+				"Type" : "Book",
+				"Text" : "Site Reliability Engineering by Betsy Beyer et al",
+				"Href" : "https://www.amazon.co.uk/Site-Reliability-Engineering-Betsy-Beyer/dp/149192912X",
+				"Paid" : "Yes"
+			}
+		]
+	},
+	"Make tomorrow better than today" : {
+		"Advice" : "A great place to start is by reading the reading the Google SRE guides and books",
+		"Links" : [
+			{
+				"Type" : "Website",
+				"Text" : "Google SRE Fundamentals",
+				"Href" : "https://cloud.google.com/blog/products/gcp/sre-fundamentals-slis-slas-and-slos"
+			}
+		]
+	},
+	"Monitoring - Core" : {
+		"Advice" : "Core Monitoring",
+		"Links" : [
+			{
+				"Type" : "Book",
+				"Text" : "Complete Web Monitoring by Alistair Croll and Sean Power",
+				"Href" : "https://www.amazon.co.uk/Complete-Web-Monitoring-performance-communities/dp/0596155131",
+				"Paid" :"Yes" 
+			}
+		]
+	},
+	"Monitoring - Code" : {
+		"Advice" : "Code Monitoring",
+		"Links" : [
+			{
+				"Type" : "Book",
+				"Text" : "Complete Web Monitoring by Alistair Croll and Sean Power",
+				"Href" : "https://www.amazon.co.uk/Complete-Web-Monitoring-performance-communities/dp/0596155131",
+				"Paid" :"Yes" 
+			}
+		]
+	},
+	"Monitoring - Customer" : {
+		"Advice" : "Monitoring - Customer",
+		"Links" : [
+			{
+				"Type" : "Book",
+				"Text" : "Complete Web Monitoring by Alistair Croll and Sean Power",
+				"Href" : "https://www.amazon.co.uk/Complete-Web-Monitoring-performance-communities/dp/0596155131",
+				"Paid" :"Yes" 
+			}
+		]
+	},
+	"Monitoring - Security" : {
+		"Advice" : "Monitoring - Security",
+		"Links" : [
+			{
+				"Type" : "Book",
+				"Text" : "Complete Web Monitoring by Alistair Croll and Sean Power",
+				"Href" : "https://www.amazon.co.uk/Complete-Web-Monitoring-performance-communities/dp/0596155131",
+				"Paid" :"Yes" 
+			}
+		]
+	},
+	"Monitoring - Insight" : {
+		"Advice" : "Monitoring - Insight",
+		"Links" : [
+			{
+				"Type" : "Book",
+				"Text" : "Complete Web Monitoring by Alistair Croll and Sean Power",
+				"Href" : "https://www.amazon.co.uk/Complete-Web-Monitoring-performance-communities/dp/0596155131",
+				"Paid" :"Yes" 
+			}
+		]
+	},
+	"Logging" : {
+		"Advice" : "Logging",
+		"Links" : [
+			{
+				"Type" : "Book",
+				"Text" : "Complete Web Monitoring by Alistair Croll and Sean Power",
+				"Href" : "https://www.amazon.co.uk/Complete-Web-Monitoring-performance-communities/dp/0596155131",
+				"Paid" :"Yes" 
+			}
+		]
+	},
+	"Alerting" : {
+		"Advice" : "Alerting",
+		"Links" : [
+			{
+				"Type" : "Book",
+				"Text" : "Complete Web Monitoring by Alistair Croll and Sean Power",
+				"Href" : "https://www.amazon.co.uk/Complete-Web-Monitoring-performance-communities/dp/0596155131",
+				"Paid" :"Yes" 
+			}
+		]
+	},
+	"Architecture Design Review" : {
+		"Advice" : "A \"Designed-for-Operability\" approach implies that operability features need to be designed into the Architecture of the application.  The right architectural decisions can make requirmenents like availability and redundancy easy or hard to implement. ",
+		"Links" : [
+			{
+				"Type" : "Website",
+				"Text" : "Azure Cloud Design Principles",
+				"Href" : "https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/"
+			},
+			{
+				"Type" : "Website",
+				"Text" : "AWS Well-Architected Framework",
+				"Href" : "https://aws.amazon.com/architecture/well-architected/"
+			},
+			{
+				"Type" : "Website",
+				"Text" : "12-Factor App",
+				"Href" : "https://12factor.net/"
+			},
+			{
+				"Type" : "Book",
+				"Text" : "Site Reliability Engineering by Betsy Beyer et al",
+				"Href" : "https://www.amazon.co.uk/Site-Reliability-Engineering-Betsy-Beyer/dp/149192912X",
+				"Paid" : "Yes"
+			}
+		]
+	},
+	"Observability" : {
+		"Advice" : "Monitoring aka \"observability\" is the key foundation to great ops - the more information you have about your applications the faster you can find what's wrong, or about to go wrong, and prevent it or fix it.",
+		"Links" : [
+			{
+				"Type" : "Book",
+				"Text" : "The Practice of Cloud System Administration: DevOps and SRE Practices for Web Services by Thomas A. Limoncelli, Strata R. Chalup and Christina J. Hogan (Chapter 16 and 17)",
+				"Href" : "https://www.amazon.com/Practice-Cloud-System-Administration-Practices/dp/032194318X/",
+				"Paid" : "Yes"
+			},
+			{
+				"Type" : "Website",
+				"Text" : "Azure Monitoring",
+				"Href" : "https://docs.microsoft.com/en-us/azure/azure-monitor/overview"
+			},	
+			{
+				"Type" : "Website",
+				"Text" : "Azure Monitoring Best Practices",
+				"Href" : "https://docs.microsoft.com/en-us/azure/architecture/best-practices/monitoring"
+			},
+			{
+				"Type" : "Website",
+				"Text" : "AWS CloudWatch",
+				"Href" : "https://aws.amazon.com/cloudwatch/"
+			},
+			{
+				"Type" : "Book",
+				"Text" : "Web Operations by John Allspaw and Jesse Robbins, (Chapter 6)",
+				"Href" : "https://www.amazon.co.uk/Web-Operations-Keeping-Data-Time/dp/1449377440"
+			}
+		]
+	},
+	"Documentation" : {
+		"Advice" : "Despite what some people might think, the need for good documentation hasn't gone away. High level architecture diagrams, well-written repo READMEs, runbooks and playbooks (along with other forms of documentation) can help reduce toil, reduce MTTR and improve availability.",
+		"Links" : [
+			{
+				"Type" : "Blog",
+				"Text" : "Minimum Viable Runbook by VictorOps",
+				"Href" : "https://victorops.com/blog/minimum-viable-runbook-part-one"
+			},
+			{
+				"Type" : "Website",
+				"Text" : "AWS Playbook Guidance",
+				"Href" : "https://wa.aws.amazon.com/wat.concept.playbook.en.html"
+			},
+			{
+				"Type" : "Website",
+				"Text" : "AWS Runbook Guidance",
+				"Href" : "https://wa.aws.amazon.com/wat.concept.runbook.en.html"
+			},
+			{
+				"Type" : "Video",
+				"Text" : "DevOpsChat: Containerisation for DevOps with Miska Kaipiainen (00:19)",
+				"Href" : "https://www.youtube.com/watch?v=8mR4q-roSHk"
+			},
+			{
+				"Type" : "Blog",
+				"Text" : "DevOps automation best practices: How much is too much? by David Linthicum",
+				"Href" : "https://techbeacon.com/devops/devops-automation-best-practices-how-much-too-much"
+			}
+		]
+	},
+	"Testing" : {
+		"Advice" : "Automated testing enables tests to be run quickly and frequently. It enables new features to be added with a high degree of confidence that existing functionality will not be broken. As such it is a key enabler for delivering software frequently in smaller increments.",
+		"Links" : [
+			{
+				"Type" : "Blog",
+				"Text" : "TestPyramid by Martin Fowler",
+				"Href" : "https://martinfowler.com/bliki/TestPyramid.html"
+			},
+			{
+				"Type" : "Article",
+				"Text" : "The Practical Test Pyramid by Martin Fowler",
+				"Href" : "https://martinfowler.com/articles/practical-test-pyramid.html"
+			},
+			{
+				"Type" : "Video",
+				"Text" : "Automation Testing Tutorial for Beginners (0:07)",
+				"Href" : "https://www.youtube.com/watch?v=RbSlW8jZFe8"
+			},
+			{
+				"Type" : "Video",
+				"Text" : "Netflix Automation Talks - Test Automation at Scale (1:16)",
+				"Href" : "https://www.youtube.com/watch?v=FrBN94gUn_I"
+			},
+			{
+				"Type" : "Book",
+				"Text" : "Test-Driven Development: A Practical Guide by David Astels",
+				"Href" : "https://www.amazon.com/Test-Driven-Development-Practical-Guide/dp/0131016490",
+				"Paid" : "Yes"
+			},
+			{
+				"Type" : "Book",
+				"Text" : "Working Effectively with Legacy Code by Michael Feathers",
+				"Href" : "https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/",
+				"Paid" : "Yes"
+			}
+		]
+	},
+	"Performance" : {
+		"Advice" : "Understanding the performance characteristics of your application is critical to being able to size your infrastructure appropriately to customer demand. Load testing your application prior to launch with as realistic workloads as possible is a great first step, but you also need to be monitoring performance in real-time. Modern Application Performance Management (APM) tools are a key part of your monitoring arsenal.",
+		"Links" : [
+			{
+				"Type" : "Website",
+				"Text" : "Open-Source load testing tools",
+				"Href" : "https://www.blazemeter.com/blog/open-source-load-testing-tools-which-one-should-you-use"
+			},
+			{
+				"Type" : "Website",
+				"Text" : "AppDynamics",
+				"Href" : "https://www.appdynamics.com/"
+			},
+			{
+				"Type" : "Website",
+				"Text" : "Dynatrace",
+				"Href" : "https://www.dynatrace.com/"
+			},
+			{
+				"Type" : "Website",
+				"Text" : "New Relic",
+				"Href" : "https://www.newrelic.com"
+			}
+		]
+	},
+	"Deployment Strategy" : {
+		"Advice" : "There are a number of technical practices that are core to DevOps: Continuous Integration, Continuous Deployment/Delivery, Test Driven Development, Refactoring, and Code Review. The resources here are good overviews. For more in depth results see the detailed report for DevOps Practices.",
+		"Links" : [
+			{
+				"Type" : "Article",
+				"Text" : "Enterprise DevOps: Building a Service Oriented Organisation (Atos Whitepaper)",
+				"Href" : "https://atos.net/wp-content/uploads/2017/01/DevOps_Building_a_Service_Oriented_Organization-White-Paper-web-FINAL-281116.pdf"
+			},
+			{
+				"Type" : "Blog",
+				"Text" : "Continuous Integration by Martin Fowler",
+				"Href" : "https://martinfowler.com/articles/continuousIntegration.html"
+			},
+			{
+				"Type" : "Website",
+				"Text" : "Continuous Delivery",
+				"Href" : "https://continuousdelivery.com/"
+			},
+			{
+				"Type" : "Video",
+				"Text" : "Continuous Delivery - Jez Humble (0:46)",
+				"Href" : "https://www.youtube.com/watch?v=skLJuksCRTw"
+			},
+			{
+				"Type" : "Blog",
+				"Text" : "TestDrivenDevelopment by Martin Fowler",
+				"Href" : "https://martinfowler.com/bliki/TestDrivenDevelopment.html"
+			},
+			{
+				"Type" : "Article",
+				"Text" : "Continuous Integration by Martin Fowler",
+				"Href" : "https://martinfowler.com/articles/continuousIntegration.html"
+			},
+			{
+				"Type" : "Blog",
+				"Text" : "FeatureBranch by Martin Fowler",
+				"Href" : "https://martinfowler.com/bliki/FeatureBranch.html"
+			},
+			{
+				"Type" : "Book",
+				"Text" : "Continuous Integration: Improving Software Quality and Reducing Risk by Paul M. Duvall",
+				"Href" : "https://www.amazon.com/Continuous-Integration-Improving-Software-Reducing/dp/0321336380",
+				"Paid" : "Yes"
+			},
+			{
+				"Type" : "Article",
+				"Text" : "Continuous integration vs. continuous delivery vs. continuous deployment by Sten Pittet",
+				"Href" : "https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment"
+			},
+			{
+				"Type" : "Website",
+				"Text" : "Continuous Delivery",
+				"Href" : "https://continuousdelivery.com/"
+			},
+			{
+				"Type" : "Video",
+				"Text" : "GitHub Professional Guides: Continuous Integration Continuous Delivery (0:06)",
+				"Href" : "https://www.youtube.com/watch?v=xSv_m3KhUO8"
+			},
+			{
+				"Type" : "Video",
+				"Text" : "CI/CD Introduction (0:04)",
+				"Href" : "https://www.youtube.com/watch?v=AlrImm1T8Wg"
+			},
+			{
+				"Type" : "Book",
+				"Text" : "Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation by Jez Humble",
+				"Href" : "https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912",
+				"Paid" : "Yes"
+			}
+			
+		]
+	}
+	
+}
