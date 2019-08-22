@@ -1,6 +1,10 @@
 # Production Readiness Review
 
-[![Build Status](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_apis/build/status/devopsguys.production-readiness-review-build?branchName=master)](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_build/latest?definitionId=3&branchName=master)
+| Build Status | |
+| ------------ | - |
+| **master** branch CI builds | [![Build Status](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_apis/build/status/devopsguys.production-readiness-review-build?branchName=master)](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_build/latest?definitionId=3&branchName=master) |
+| **master** branch QA Release | [![Build Status](https://vsrm.dev.azure.com/DevOpsGroupLtd/_apis/public/Release/badge/68da88e0-91b0-4f79-9d6f-f4c34ee53d1f/2/3)](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_release?view=mine&definitionId=2) |
+| **master** branch Prod Release | [![Build Status](https://vsrm.dev.azure.com/DevOpsGroupLtd/_apis/public/Release/badge/68da88e0-91b0-4f79-9d6f-f4c34ee53d1f/2/4)](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_release?view=mine&definitionId=2) |
 
 ## Overview
 
