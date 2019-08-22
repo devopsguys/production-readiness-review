@@ -12,6 +12,7 @@ trigger:
     exclude:
     - azure-pipelines-build-prr-app.yml
     - README.md
+    - SECURITY.md
 
 pr:
   branches:
@@ -21,6 +22,7 @@ pr:
     exclude:
     - azure-pipelines-build-prr-app.yml
     - README.md
+    - SECURITY.md
 
 pool:
   vmImage: 'ubuntu-latest'
