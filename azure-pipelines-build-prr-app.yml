@@ -4,7 +4,14 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/php
 
 trigger:
-- master
+  batch: false
+  branches:
+    include:
+    - master
+  paths:
+    exclude:
+    - azure-pipelines-build-prr-app.yml
+    - README.md
 
 pr:
   branches:
@@ -13,6 +20,7 @@ pr:
   paths:
     exclude:
     - azure-pipelines-build-prr-app.yml
+    - README.md
 
 pool:
   vmImage: 'ubuntu-latest'
