@@ -27,6 +27,14 @@ We ask that you not open a GitHub Issue for help, only for bug reports.
 
 Please have a look at SECURITY.md.
 
+How Can I Contribute?
+==================================
+
+We welcome new contributors!  Please review  [GitHub Issue](https://github.com/devopsguys/production-readiness-review/issues) 
+as a good place to jump in and get started.  
+Please be sure to check the [contribution guidelines](contributing.md) to
+understand our workflow
+
 ## License
 
 This source code is released under the [MIT license](https://github.com/atosorigin/DevOpsMaturityAssessment/blob/master/LICENSE). Bootstrap and Chart.js are also released under the [MIT license](https://github.com/atosorigin/DevOpsMaturityAssessment/blob/master/LICENSE). Font Awesome Free and Comfortaa is provided under the [SIL OFL 1.1 License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL) 
