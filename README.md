@@ -1,5 +1,7 @@
 # Production Readiness Review
 
+[![Build Status](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_apis/build/status/devopsguys.production-readiness-review-build?branchName=master)](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_build/latest?definitionId=3&branchName=master)
+
 ## Overview
 
 This is a simple, survey-based tool, to help teams assess where they currently are on their Production Readiness and to help them identify next steps for further improvement.
