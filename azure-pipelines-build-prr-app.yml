@@ -13,7 +13,7 @@ trigger:
     - azure-pipelines-build-prr-app.yml
     - README.md
     - SECURITY.md
-    - Contributing.md
+    - CONTRIBUTING.md
 
 pr:
   branches:
@@ -24,7 +24,7 @@ pr:
     - azure-pipelines-build-prr-app.yml
     - README.md
     - SECURITY.md
-    - Contributing.md
+    - CONTRIBUTING.md
     
 pool:
   vmImage: 'ubuntu-latest'
