@@ -6,6 +6,14 @@
 trigger:
 - master
 
+pr:
+  branches:
+    include:
+    - master
+  paths:
+    exclude:
+    - azure-pipelines-build-prr-app.yml
+
 pool:
   vmImage: 'ubuntu-latest'
 
