@@ -32,7 +32,7 @@ How Can I Contribute?
 
 We welcome new contributors!  Please review  [GitHub Issue](https://github.com/devopsguys/production-readiness-review/issues) 
 as a good place to jump in and get started.  
-Please be sure to check the [contribution guidelines](contributing.md) to
+Please be sure to check the [contribution guidelines](https://github.com/devopsguys/production-readiness-review/blob/master/CONTRIBUTING.md) to
 understand our workflow
 
 ## License
