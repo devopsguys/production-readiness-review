@@ -150,9 +150,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Open Graph info -->
-		<meta property="og:title" content="Operational Readiness Assessment" />
-		<meta property="og:description" content="This online Operational Readiness Assessment questionnaire will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your Operations transition." />
-		<meta property="og:site_name" content="Operational Readiness Assessment" />
+		<meta property="og:title" content="Production Readiness Assessment" />
+		<meta property="og:description" content="This online Production Readiness Assessment questionnaire will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your Operations transition." />
+		<meta property="og:site_name" content="Production Readiness Assessment" />
 		<meta property="og:image" content="<?=GetBaseURL()?>/og-image.jpg" />
 		<meta property="og:image:width" content="1680" />
 		<meta property="og:image:height" content="870" />
@@ -170,7 +170,7 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="fontawesome/css/all.css" rel="stylesheet">
 
-		<title>Operational Readiness Assessment</title>
+		<title>Production Readiness Assessment</title>
 		<script src="./js/chart.bundle.min.js"></script>
 		<script src="js/jquery-3.3.1.min.js"></script>		
 		<style>
@@ -195,7 +195,7 @@
 	<body id="bigwrapper">
 
 	<nav class="navbar navbar-dark bg-primary fixed-top navbar-expand-md form-group" ">
-		<a href="about" class="navbar-brand">Operational Readiness Assessment</a>
+		<a href="about" class="navbar-brand">Production Readiness Assessment</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 			<span class="navbar-toggler-icon"></span>
 		</button>

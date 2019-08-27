@@ -24,7 +24,7 @@
 		$resultsSummary = $survey->GenerateResultsSummary();
 		// Sort into the order they should be displayed on the spider diagram
 		uasort( $resultsSummary, function($a, $b) { return $a['SpiderPos'] - $b['SpiderPos']; } );	
-		$chartTitle = 'Operational Readiness by Area';
+		$chartTitle = 'Production Readiness by Area';
 	}
 	else
 	{
