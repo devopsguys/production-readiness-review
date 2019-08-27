@@ -49,7 +49,7 @@
 				</div>
 			</section>
 		
-			<!-- Three columns of text below the jumbotron -->
+			<!-- Three columns of text below the jumbotron  -->
 			<div class="row">
 			
 				<div class="col-lg-4">
