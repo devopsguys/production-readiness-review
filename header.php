@@ -194,7 +194,7 @@
 	
 	<body id="bigwrapper">
 
-	<nav class="navbar navbar-dark bg-primary fixed-top navbar-expand-md form-group" ">
+	<nav class="navbar navbar-dark bg-primary fixed-top navbar-expand-md form-group">
 		<a href="about" class="navbar-brand">Production Readiness Assessment</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 			<span class="navbar-toggler-icon"></span>
