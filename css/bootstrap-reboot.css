@@ -23,7 +23,7 @@ body {
   margin: 0;
   font-family: "Museo-Sans", -apple-system, BlinkMacSystemFont, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color: #212529;
   text-align: left;
@@ -71,7 +71,7 @@ ul ol {
   margin-bottom: 0; }
 
 dt {
-  font-weight: 700; }
+  font-weight: 500; }
 
 dd {
   margin-bottom: .5rem;
@@ -82,7 +82,7 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: 700; }
 
 small {
   font-size: 80%; }
