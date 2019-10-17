@@ -169,6 +169,7 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="fontawesome/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.typekit.net/kuj3fcy.css">
 
 		<title>Production Readiness Assessment</title>
 		<script src="./js/chart.bundle.min.js"></script>
