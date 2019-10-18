@@ -37,7 +37,7 @@
 		<div class="row">
 			<div class="col-12">
 				<h1>Improve Your Production Readiness</h1>
-				<p>This online Production Readiness Review will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your Production Readiness journey.</p>
+				<p class="lead">This online Production Readiness Review will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your Production Readiness journey.</p>
 				<a href="<?='section-' . SectionNameToURLName($survey->sections[0]['SectionName'])?>" class="btn btn-primary">Start the Questionnaire</a>
 				<a href="https://github.com/devopsguys/operational-readiness-review" target="_blank" class="btn btn-secondary">Fork us on GitHub</a>
 			</div>
@@ -48,7 +48,7 @@
 <!-- Three columns of text below the header  -->
 		<div class="row">
 			<div class="col-12">
-				<div class="card-deck">
+				<div class="card-deck text-center">
 					<!--Understand where you are-->
 					<div class="card">
 						<span class="fa-stack fa-5x mb-4">
@@ -89,7 +89,7 @@
 		</div>
 		<div class="row">
 			<div class="col-12">
-				<p>We do not harvest your data and we will not share your results with anyone else.</p>
+				<p class="small">We do not harvest your data and we will not share your results with anyone else.</p>
 			</div>
 		</div>
 		<!-- Meet the team  -->
@@ -109,9 +109,9 @@
 							<div class="card-body">
 								<h5 class="card-title">Steve Thair</h5>
 								<p class="card-text">CTO at DevOpsGroup</p>
-							</div>
 								<?=RenderLinkedInLink('https://www.linkedin.com/in/stephenthair/')?>
 								<?=RenderTwitterLink('https://twitter.com/TheOpsMgr')?>	
+							</div>
 						</div>
 					</div>
 				</div>
@@ -121,14 +121,14 @@
 				<div class="card mb-3">
 					<div class="row no-gutters">
 						<div class="col-md-4">
-							<img src="..." class="card-img" alt="...">
+							<img src="team-photos/RichardSweeney.png" class="card-img" alt="Richard Sweeney Headshot">
 						</div>
 						<div class="col-md-8">
 							<div class="card-body">
 								<h5 class="card-title">Richard Sweeney</h5>
 								<p class="card-text">DevOps Consultant at DevOpsGroup</p>
-							</div>
 								<?=RenderLinkedInLink('https://www.linkedin.com/in/richard-sweeney-014b883/')?>
+							</div>
 						</div>
 					</div>
 				</div>
