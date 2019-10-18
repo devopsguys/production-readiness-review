@@ -98,9 +98,9 @@
 				<h2>Meet the Team</h2>
 				<p>This tool was created by members of DevOpsGroup with contributions from many other practitioners. You can find out more about the core team below.</p>
 			</div>
-			<div class="col-12">
+			<div class="col-6">
 				<!-- Steve Thair  -->
-				<div class="card mb-3" style="max-width: 540px;">
+				<div class="card mb-3">
 					<div class="row no-gutters">
 						<div class="col-md-4">
 							<img src="team-photos/devopsguys_team_steve_thair_004_low_res-square.jpg" class="card-img" alt="Steve Thair Headshot">
@@ -110,15 +110,15 @@
 								<h5 class="card-title">Steve Thair</h5>
 								<p class="card-text">CTO at DevOpsGroup</p>
 							</div>
-							<div class="card-footer text-center">
 								<?=RenderLinkedInLink('https://www.linkedin.com/in/stephenthair/')?>
 								<?=RenderTwitterLink('https://twitter.com/TheOpsMgr')?>	
-							</div>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="col-6">
 				<!-- Richard Sweeney  -->
-				<div class="card mb-3" style="max-width: 540px;">
+				<div class="card mb-3">
 					<div class="row no-gutters">
 						<div class="col-md-4">
 							<img src="..." class="card-img" alt="...">
@@ -128,9 +128,7 @@
 								<h5 class="card-title">Richard Sweeney</h5>
 								<p class="card-text">DevOps Consultant at DevOpsGroup</p>
 							</div>
-							<div class="card-footer text-center">
 								<?=RenderLinkedInLink('https://www.linkedin.com/in/richard-sweeney-014b883/')?>
-							</div>
 						</div>
 					</div>
 				</div>
