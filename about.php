@@ -34,7 +34,7 @@
 ?>
 <!-- Header - Improve your Prodcution Readiness  -->
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row text-center">
 			<div class="col-12">
 				<h1>Improve Your Production Readiness</h1>
 				<p class="lead">This online Production Readiness Review will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your Production Readiness journey.</p>
@@ -51,7 +51,7 @@
 				<div class="card-deck text-center">
 					<!--Understand where you are-->
 					<div class="card">
-						<span class="fa-stack fa-5x mb-4">
+						<span class="fa-stack fa-5x mb-4 mx-auto">
 							<i class="fas fa-circle fa-stack-2x text-primary"></i>
 							<i class="far fa-chart-bar fa-stack-1x"></i>
 						</span>
@@ -63,7 +63,7 @@
 					</div>
 					<!--Identify next steps-->
 					<div class="card">
-						<span class="fa-stack fa-5x mb-4">
+						<span class="fa-stack fa-5x mb-4 mx-auto">
 							<i class="fas fa-circle fa-stack-2x text-primary"></i>
 							<i class="fas fa-shoe-prints fa-stack-1x"></i>
 						</span>
@@ -74,7 +74,7 @@
 					</div>
 					<!--Free and open source-->
 					<div class="card">
-						<span class="fa-stack fa-5x mb-4">
+						<span class="fa-stack fa-5x mb-4 mx-auto">
 							<i class="fas fa-circle fa-stack-2x text-primary"></i>
 							<i class="fas fa-lock-open fa-stack-1x"></i>
 						</span>
@@ -93,7 +93,7 @@
 			</div>
 		</div>
 		<!-- Meet the team  -->
-		<div class="row">
+		<div class="row text-center">
 			<div class="col-12">
 				<h2>Meet the Team</h2>
 				<p>This tool was created by members of DevOpsGroup with contributions from many other practitioners. You can find out more about the core team below.</p>
