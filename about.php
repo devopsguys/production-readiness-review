@@ -87,7 +87,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row text-center">
 			<div class="col-12">
 				<p class="small">We do not harvest your data and we will not share your results with anyone else.</p>
 			</div>
