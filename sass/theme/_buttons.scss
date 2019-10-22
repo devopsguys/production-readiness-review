@@ -7,13 +7,14 @@
 .btn {
   display: inline-block;
   font-family: $btn-font-family;
-  font-weight: $btn-font-weight;
-  color: $body-color;
+  font-weight: 300;
+  color: #2c3b45;
   text-align: center;
   vertical-align: middle;
   user-select: none;
   background-color: transparent;
-  border: $btn-border-width solid transparent;
+  border: 2rem solid;
+  border-radius: 2rem;
   @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
   @include transition($btn-transition);
 
@@ -43,6 +44,18 @@
       @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
     }
   }
+}
+
+.btn-warning {
+    color: white;
+    background-color: #E62075;
+    border-color: #E62075    
+}
+
+.btn-dark {
+    color: white;
+    background-color: transparent;
+    border-color: white;
 }
 
 // Future-proof disabling of clicks on `<a>` elements
