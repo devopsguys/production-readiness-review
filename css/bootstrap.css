@@ -7598,4 +7598,5 @@ header {
   background-position: center;
   background-size: cover; }
   header.container-fluid {
-    padding: 7rem 10rem; }
+    padding: 7rem 10rem;
+    margin-top: 56px; }
