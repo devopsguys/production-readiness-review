@@ -27,7 +27,7 @@ body {
   line-height: 1.5;
   color: #fff;
   text-align: left;
-  background-color: #fff; }
+  background-color: #2c3b45; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }

@@ -161,7 +161,7 @@ $sizes: map-merge(
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   $white !default;
+$body-bg:                   $secondary !default;
 $body-color:                $white !default;
 
 
@@ -400,7 +400,7 @@ $input-btn-padding-x-lg:      1rem !default;
 $input-btn-font-size-lg:      $font-size-lg !default;
 $input-btn-line-height-lg:    $line-height-lg !default;
 
-$input-btn-border-width:      $border-width !default;
+$input-btn-border-width:      2px !default;
 
 
 // Buttons

@@ -2,21 +2,9 @@ header {
 	&.container-fluid {
 		padding: 7rem 10rem;
 	}
+	background-image:url(../../images/backdrop.jpg) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
-
-
-
-
-#bigwrapper {
-	background-image: Url('backdrop.jpg');
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-attachment: fixed;
-	backgroun-size: cover;
-	background-color: RGB(2, 2, 1);
-	padding-top: 70px;
-	@media (max-width: 355px) {
-		padding-top: 100px;
-	}
-} 
