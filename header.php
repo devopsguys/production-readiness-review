@@ -177,8 +177,6 @@
 
 		
 	</head>
-	
-	<body id="bigwrapper">
 
 	<nav class="navbar navbar-dark bg-primary fixed-top navbar-expand-md form-group">
 		<a href="about" class="navbar-brand">Production Readiness Assessment</a>
