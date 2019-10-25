@@ -46,12 +46,12 @@
 
 	<div class="container">
 <!-- Three columns of text below the header  -->
-		<div class="row">
+		<div class="row mb-5">
 			<div class="col-12">
 				<div class="card-deck text-center">
 					<!--Understand where you are-->
-					<div class="card">
-						<span class="fa-stack fa-5x mb-4 mx-auto">
+					<div class="card py-2 px-2">
+						<span class="fa-stack fa-5x my-3 mx-auto">
 							<i class="fas fa-circle fa-stack-2x text-primary"></i>
 							<i class="far fa-chart-bar fa-stack-1x"></i>
 						</span>
@@ -62,8 +62,8 @@
 						</div>
 					</div>
 					<!--Identify next steps-->
-					<div class="card">
-						<span class="fa-stack fa-5x mb-4 mx-auto">
+					<div class="card py-2 px-2">
+						<span class="fa-stack fa-5x my-3 mx-auto">
 							<i class="fas fa-circle fa-stack-2x text-primary"></i>
 							<i class="fas fa-shoe-prints fa-stack-1x"></i>
 						</span>
@@ -73,8 +73,8 @@
 						</div>
 					</div>
 					<!--Free and open source-->
-					<div class="card">
-						<span class="fa-stack fa-5x mb-4 mx-auto">
+					<div class="card py-2 px-2">
+						<span class="fa-stack fa-5x my-3 mx-auto">
 							<i class="fas fa-circle fa-stack-2x text-primary"></i>
 							<i class="fas fa-lock-open fa-stack-1x"></i>
 						</span>
@@ -87,7 +87,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row text-center">
+		<div class="row text-center mb-5">
 			<div class="col-12">
 				<p class="small">We do not harvest your data and we will not share your results with anyone else.</p>
 			</div>
@@ -103,7 +103,7 @@
 				<div class="card mb-3">
 					<div class="row no-gutters">
 						<div class="col-md-4">
-							<img src="team-photos/devopsguys_team_steve_thair_004_low_res-square.jpg" class="card-img" alt="Steve Thair Headshot">
+							<img src="images/team-photos/devopsguys_team_steve_thair_004_low_res-square.jpg" class="card-img" alt="Steve Thair Headshot">
 						</div>
 						<div class="col-md-8 d-flex align-self-center">
 							<div class="card-body">
@@ -121,7 +121,7 @@
 				<div class="card mb-3">
 					<div class="row no-gutters">
 						<div class="col-md-4">
-							<img src="team-photos/RichardSweeney.png" class="card-img" alt="Richard Sweeney Headshot">
+							<img src="images/team-photos/RichardSweeney.png" class="card-img" alt="Richard Sweeney Headshot">
 						</div>
 						<div class="col-md-8 d-flex align-self-center">
 							<div class="card-body">
