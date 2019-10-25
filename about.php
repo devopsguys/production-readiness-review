@@ -94,7 +94,7 @@
 		</div>
 		<!-- Meet the team  -->
 		<div class="row text-center">
-			<div class="col-12">
+			<div class="col-12 mb-5">
 				<h2>Meet the Team</h2>
 				<p>This tool was created by members of DevOpsGroup with contributions from many other practitioners. You can find out more about the core team below.</p>
 			</div>
