@@ -103,7 +103,7 @@
 				<div class="card mb-3">
 					<div class="row no-gutters">
 						<div class="col-md-4">
-							<img src="team-photos/devopsguys_team_steve_thair_004_low_res-square.jpg" class="card-img" alt="Steve Thair Headshot">
+							<img src="team-photos/devopsgroup_steve_thair_headshot_001.jpg" class="card-img" alt="Steve Thair Headshot">
 						</div>
 						<div class="col-md-8 d-flex align-self-center">
 							<div class="card-body">
