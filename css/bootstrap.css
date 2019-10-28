@@ -3210,7 +3210,7 @@ input[type="button"].btn-block {
       color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
-  color: #fff; }
+  color: #96c11e; }
   .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
     color: #fff; }
 .navbar-dark .navbar-nav .nav-link {
@@ -3237,7 +3237,7 @@ input[type="button"].btn-block {
       color: #fff; }
 
 .navbar.navbar-dark.bg-primary {
-  background-color: #96c11e; }
+  background-color: #2c3b45; }
 
 .card {
   position: relative;
