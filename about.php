@@ -113,6 +113,8 @@
 							<div class="card-body">
 								<h5 class="card-title">Steve Thair</h5>
 								<p class="card-text">CTO at DevOpsGroup</p>
+							</div>
+							<div class="card-footer">
 								<?=RenderLinkedInLink('https://www.linkedin.com/in/stephenthair/')?>
 								<?=RenderTwitterLink('https://twitter.com/TheOpsMgr')?>	
 							</div>
@@ -131,6 +133,8 @@
 							<div class="card-body">
 								<h5 class="card-title">Richard Sweeney</h5>
 								<p class="card-text">DevOps Consultant at DevOpsGroup</p>
+							</div>
+							<div class="card-footer">
 								<?=RenderLinkedInLink('https://www.linkedin.com/in/richard-sweeney-014b883/')?>
 							</div>
 						</div>
