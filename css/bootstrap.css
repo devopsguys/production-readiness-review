@@ -7595,7 +7595,7 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 header {
-  background: rgba(44, 59, 69, 0.8) url(../../header_background.jpg) no-repeat bottom center fixed;
+  background: rgba(44, 59, 69, 0.8) url(../../team-photos/devopsgroup_steve_thair_headshot_001.jpg) no-repeat bottom center fixed;
   background: -moz-linear-gradient(bottom, rgba(44, 59, 69, 0.8) 0%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background.jpg) no-repeat bottom center fixed;
   background: -webkit-gradient(bottom, color-stop(0%, rgba(44, 59, 69, 0.8)), color-stop(50%, rgba(44, 59, 69, 0))), url(../../images/team-photos/header_background.jpg) no-repeat bottom center fixed;
   background: -webkit-linear-gradient(bottom, rgba(44, 59, 69, 0.8) 0%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background.jpg) no-repeat bottom center fixed;
