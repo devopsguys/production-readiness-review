@@ -103,6 +103,7 @@
 				<p>This tool was created by members of DevOpsGroup with contributions from many other practitioners. You can find out more about the core team below.</p>
 			</div>
 				<!-- Steve Thair  -->
+		<div class="col-12">
 			<div class="card-deck">
 				<div class="card mb-3">
 					<div class="row no-gutters">
@@ -140,6 +141,7 @@
 				</div>		
 		</div>
 	</div>
+</div>
 </div><!-- /.container -->
 <?php
 	
