@@ -109,7 +109,7 @@
 						<div class="col-md-4">
 							<img src="images/team-photos/devopsgroup_steve_thair_headshot_001.jpg" class="card-img" alt="Steve Thair Headshot">
 						</div>
-						<div class="col-md-8 d-flex align-self-center">
+						<div class="col-md-8 align-self-center">
 							<div class="card-body">
 								<h5 class="card-title">Steve Thair</h5>
 								<p class="card-text">CTO at DevOpsGroup</p>
@@ -127,7 +127,7 @@
 						<div class="col-md-4">
 							<img src="images/team-photos/RichardSweeney.png" class="card-img" alt="Richard Sweeney Headshot">
 						</div>
-						<div class="col-md-8 d-flex align-self-center">
+						<div class="col-md-8 align-self-center">
 							<div class="card-body">
 								<h5 class="card-title">Richard Sweeney</h5>
 								<p class="card-text">DevOps Consultant at DevOpsGroup</p>
