@@ -103,7 +103,7 @@
 				<div class="card mb-3">
 					<div class="row no-gutters">
 						<div class="col-md-4">
-							<img src="team-photos/devopsgroup_steve_thair_headshot_001.jpg" class="card-img" alt="Steve Thair Headshot">
+							<img src="images/team-photos/devopsgroup_steve_thair_headshot_001.jpg" class="card-img" alt="Steve Thair Headshot">
 						</div>
 						<div class="col-md-8 d-flex align-self-center">
 							<div class="card-body">
@@ -121,7 +121,7 @@
 				<div class="card mb-3">
 					<div class="row no-gutters">
 						<div class="col-md-4">
-							<img src="team-photos/RichardSweeney.png" class="card-img" alt="Richard Sweeney Headshot">
+							<img src="images/team-photos/RichardSweeney.png" class="card-img" alt="Richard Sweeney Headshot">
 						</div>
 						<div class="col-md-8 d-flex align-self-center">
 							<div class="card-body">
