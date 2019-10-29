@@ -102,8 +102,8 @@
 				<h2>Meet the Team</h2>
 				<p>This tool was created by members of DevOpsGroup with contributions from many other practitioners. You can find out more about the core team below.</p>
 			</div>
-			<div class="col-6">
 				<!-- Steve Thair  -->
+			<div class="card-deck">
 				<div class="card mb-3">
 					<div class="row no-gutters">
 						<div class="col-md-4">
@@ -121,8 +121,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-6">
 				<!-- Richard Sweeney  -->
 				<div class="card mb-3">
 					<div class="row no-gutters">
@@ -139,9 +137,9 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+				</div>		
 		</div>
+	</div>
 </div><!-- /.container -->
 <?php
 	
