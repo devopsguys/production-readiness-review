@@ -3408,6 +3408,21 @@ input[type="button"].btn-block {
   .accordion > .card .card-header {
     margin-bottom: -1px; }
 
+.card .team-mem-img {
+  min-height: 150px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media (max-width: 767.98px) {
+    .card .team-mem-img.one-box {
+      min-height: 300px; } }
+
+.steve-img {
+  background-image: url(../../images/team-photos/devopsgroup_steve_thair_headshot_001.jpg); }
+
+.rich-img {
+  background-image: url(../../images/team-photos/devopsgroup_steve_thair_headshot_001.jpg); }
+
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;

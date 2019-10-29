@@ -287,3 +287,28 @@
     }
   }
 }
+
+
+//Team Cards
+
+.card {
+ .team-mem-img {
+   min-height: 150px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   &.one-box {
+     @include media-breakpoint-down(sm) {
+       min-height: 300px;
+     }
+   }
+ }
+}
+
+.steve-img {
+	background-image: url(../../images/team-photos/devopsgroup_steve_thair_headshot_001.jpg)
+}
+
+.rich-img {
+	background-image: url(../../images/team-photos/devopsgroup_steve_thair_headshot_001.jpg)
+}

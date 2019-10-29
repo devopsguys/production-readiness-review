@@ -107,8 +107,7 @@
 			<div class="card-deck">
 				<div class="card mb-3">
 					<div class="row no-gutters">
-						<div class="col-md-4">
-							<img src="images/team-photos/devopsgroup_steve_thair_headshot_001.jpg" class="card-img" alt="Steve Thair Headshot">
+						<div class="col-md-4 team-mem-img one-box steve-img">
 						</div>
 						<div class="col-md-8 align-self-center">
 							<div class="card-body">
@@ -125,8 +124,7 @@
 				<!-- Richard Sweeney  -->
 				<div class="card mb-3">
 					<div class="row no-gutters">
-						<div class="col-md-4">
-							<img src="images/team-photos/RichardSweeney.png" class="card-img" alt="Richard Sweeney Headshot">
+						<div class="col-md-4 team-mem-img one-box rich-img">
 						</div>
 						<div class="col-md-8 align-self-center">
 							<div class="card-body">
