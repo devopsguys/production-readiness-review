@@ -92,6 +92,10 @@
 				<p class="small">We do not harvest your data and we will not share your results with anyone else.</p>
 			</div>
 		</div>
+</div>
+
+		
+	<div class="container">
 		<!-- Meet the team  -->
 		<div class="row text-center">
 			<div class="col-12 mb-5">
@@ -134,8 +138,7 @@
 				</div>
 			</div>
 		</div>
-	</div><!-- /.container -->
-	
+</div><!-- /.container -->
 <?php
 	
 	require 'footer.php';
