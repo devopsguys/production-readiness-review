@@ -51,11 +51,8 @@
 				<div class="card-deck text-center header-overlap">
 					<!--Understand where you are-->
 					<div class="card shadow py-2 px-2">
-						<div class="card-header">
-							<span class="fa-stack fa-5x my-3 mx-auto">
-								<i class="fas fa-circle fa-stack-2x text-primary"></i>
-								<i class="far fa-chart-bar fa-stack-1x"></i>
-							</span>
+						<div class="card-header d-flex text-left align-items-center shadow rounded">
+							<i class="far fa-question fa-3x mr-3 text-primary"></i>
 							<h5 class="card-title">Understand Where You Are</h5>
 						</div>
 						<div class="card-body">

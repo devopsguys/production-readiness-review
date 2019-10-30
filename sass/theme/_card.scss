@@ -167,7 +167,13 @@
 	&.header-overlap {
 		
 		.card-header {
-			margin: -1.25rem 4% 4% 0;
+			margin: -3rem 0.75rem 0 0.75rem;
+			background-color: lighten( $card-bg, 10%);
+			padding: 1.5rem;
+			
+			.card-title {
+				margin-bottom: 0;
+			}
 		}
 		
 	}

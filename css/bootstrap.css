@@ -3246,9 +3246,9 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #525e66;
+  background-color: #3C4B55;
   background-clip: border-box;
-  border: 1px solid #525e66;
+  border: 1px solid #3C4B55;
   border-radius: 0.25rem; }
   .card > hr {
     margin-right: 0;
@@ -3282,8 +3282,8 @@ input[type="button"].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: #525e66;
-  border-bottom: 1px solid #525e66; }
+  background-color: #3C4B55;
+  border-bottom: 1px solid #3C4B55; }
   .card-header:first-child {
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
   .card-header + .list-group .list-group-item:first-child {
@@ -3291,8 +3291,8 @@ input[type="button"].btn-block {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: #525e66;
-  border-top: 1px solid #525e66; }
+  background-color: #3C4B55;
+  border-top: 1px solid #3C4B55; }
   .card-footer:last-child {
     border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
 
@@ -3346,7 +3346,11 @@ input[type="button"].btn-block {
         margin-bottom: 0;
         margin-left: 15px; } }
   .card-deck.header-overlap .card-header {
-    margin: -1.25rem 4% 4% 0; }
+    margin: -3rem 0.75rem 0 0.75rem;
+    background-color: #516573;
+    padding: 1.5rem; }
+    .card-deck.header-overlap .card-header .card-title {
+      margin-bottom: 0; }
 
 .card-group {
   display: flex;
