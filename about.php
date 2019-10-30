@@ -52,7 +52,7 @@
 					<!--Understand where you are-->
 					<div class="card shadow py-2 px-2">
 						<div class="card-header d-flex text-left align-items-center shadow rounded">
-							<i class="far fa-question fa-3x mr-3 text-primary"></i>
+							<i class="fas fa-question fa-3x mr-3 text-primary"></i>
 							<h5 class="card-title">Understand Where You Are</h5>
 						</div>
 						<div class="card-body">
@@ -62,23 +62,21 @@
 					</div>
 					<!--Identify next steps-->
 					<div class="card shadow py-2 px-2">
-						<span class="fa-stack fa-5x my-3 mx-auto">
-							<i class="fas fa-circle fa-stack-2x text-primary"></i>
-							<i class="fas fa-shoe-prints fa-stack-1x"></i>
-						</span>
-						<div class="card-body">
+						<div class="card-header d-flex text-left align-items-center shadow rounded">
+							<i class="fas fa-arrow-right fa-3x mr-3 text-primary"></i>
 							<h5 class="card-title">Identify Your Next Steps</h5>
+						</div>
+						<div class="card-body">
 							<p class="card-text">For each area we have identified a range of free or commercially available books, videos, blog posts, white papers and websites that will help you take the next steps on your Production Readiness.</p>
 						</div>
 					</div>
 					<!--Free and open source-->
 					<div class="card shadow py-2 px-2">
-						<span class="fa-stack fa-5x my-3 mx-auto">
-							<i class="fas fa-circle fa-stack-2x text-primary"></i>
-							<i class="fas fa-lock-open fa-stack-1x"></i>
-						</span>
-						<div class="card-body">
+						<div class="card-header d-flex text-left align-items-center shadow rounded">
+							<i class="fas fa-code-branch fa-3x mr-3 text-primary"></i>
 							<h5 class="card-title">Free and Open Source</h5>
+						</div>
+						<div class="card-body">
 							<p class="card-text">This tool is made available under the MIT License: you are free to use, adapt and redistribute it, both for commercial and non-commercial use. There is no obligation to share your changes, although we always appreciate feedback!</p>
 							<a href="https://github.com/devopsguys/operational-readiness-review" class="card-link">Why not fork us on GitHub?</a>
 						</div>
