@@ -163,6 +163,14 @@
       margin-left: $card-deck-margin;
     }
   }
+	
+	&.header-overlap {
+		
+		.card-header {
+			margin: -1.25rem 4% 4% 0;
+		}
+		
+	}
 }
 
 

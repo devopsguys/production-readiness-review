@@ -3345,6 +3345,8 @@ input[type="button"].btn-block {
         margin-right: 15px;
         margin-bottom: 0;
         margin-left: 15px; } }
+  .card-deck.header-overlap .card-header {
+    margin: -1.25rem 4% 4% 0; }
 
 .card-group {
   display: flex;

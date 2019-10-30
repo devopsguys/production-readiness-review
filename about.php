@@ -48,21 +48,23 @@
 <!-- Three columns of text below the header  -->
 		<div class="row mb-5">
 			<div class="col-12">
-				<div class="card-deck text-center">
+				<div class="card-deck text-center header-overlap">
 					<!--Understand where you are-->
-					<div class="card py-2 px-2">
-						<span class="fa-stack fa-5x my-3 mx-auto">
-							<i class="fas fa-circle fa-stack-2x text-primary"></i>
-							<i class="far fa-chart-bar fa-stack-1x"></i>
-						</span>
-						<div class="card-body">
+					<div class="card shadow py-2 px-2">
+						<div class="card-header">
+							<span class="fa-stack fa-5x my-3 mx-auto">
+								<i class="fas fa-circle fa-stack-2x text-primary"></i>
+								<i class="far fa-chart-bar fa-stack-1x"></i>
+							</span>
 							<h5 class="card-title">Understand Where You Are</h5>
+						</div>
+						<div class="card-body">
 							<p class="card-text">Our set of carefully designed questions across 7 different areas will help you quickly establish your current level of Production Readiness.</p>
 							<p class="card-text">You can view the results online as well as downloading them in CSV format for more detailed analysis.</p>
 						</div>
 					</div>
 					<!--Identify next steps-->
-					<div class="card py-2 px-2">
+					<div class="card shadow py-2 px-2">
 						<span class="fa-stack fa-5x my-3 mx-auto">
 							<i class="fas fa-circle fa-stack-2x text-primary"></i>
 							<i class="fas fa-shoe-prints fa-stack-1x"></i>
@@ -73,7 +75,7 @@
 						</div>
 					</div>
 					<!--Free and open source-->
-					<div class="card py-2 px-2">
+					<div class="card shadow py-2 px-2">
 						<span class="fa-stack fa-5x my-3 mx-auto">
 							<i class="fas fa-circle fa-stack-2x text-primary"></i>
 							<i class="fas fa-lock-open fa-stack-1x"></i>
@@ -105,8 +107,8 @@
 				<!-- Steve Thair  -->
 		<div class="col-12">
 			<div class="card-deck">
-				<div class="card mb-3">
-					<div class="row no-gutters">
+				<div class="card mb-3 shadow">
+					<div class="row no-gutters h-100">
 						<div class="col-md-4 team-mem-img one-box steve-img">
 						</div>
 						<div class="col-md-8 align-self-center">
@@ -122,8 +124,8 @@
 					</div>
 				</div>
 				<!-- Richard Sweeney  -->
-				<div class="card mb-3">
-					<div class="row no-gutters">
+				<div class="card mb-3 shadow">
+					<div class="row no-gutters h-100">
 						<div class="col-md-4 team-mem-img one-box rich-img">
 						</div>
 						<div class="col-md-8 align-self-center">
