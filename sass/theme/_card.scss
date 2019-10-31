@@ -148,7 +148,7 @@
     margin-bottom: $card-deck-margin;
   }
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(lg) {
     flex-flow: row wrap;
     margin-right: -$card-deck-margin;
     margin-left: -$card-deck-margin;

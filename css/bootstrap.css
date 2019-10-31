@@ -3333,7 +3333,7 @@ input[type="button"].btn-block {
   flex-direction: column; }
   .card-deck .card {
     margin-bottom: 15px; }
-  @media (min-width: 576px) {
+  @media (min-width: 992px) {
     .card-deck {
       flex-flow: row wrap;
       margin-right: -15px;
