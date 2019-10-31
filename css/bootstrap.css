@@ -3346,7 +3346,7 @@ input[type="button"].btn-block {
         margin-bottom: 0;
         margin-left: 15px; } }
   .card-deck.header-overlap .card-header {
-    margin: -3rem 0.75rem 0 0.75rem;
+    margin: -3rem 0.75rem 0.5rem 0.75rem;
     background-color: #516573;
     padding: 1.5rem; }
     .card-deck.header-overlap .card-header .card-title {
@@ -7617,16 +7617,17 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 header {
   background: rgba(44, 59, 69, 0.8) url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
-  background: -moz-linear-gradient(bottom, rgba(44, 59, 69, 0.8) 0%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
-  background: -webkit-gradient(bottom, color-stop(0%, rgba(44, 59, 69, 0.8)), color-stop(50%, rgba(44, 59, 69, 0))), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
-  background: -webkit-linear-gradient(bottom, rgba(44, 59, 69, 0.8) 0%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
-  background: -o-linear-gradient(bottom, #2c3b45 0%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
-  background: -ms-linear-gradient(bottom, #2c3b45 0%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
-  background: linear-gradient(to top, #2c3b45 0%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
+  background: -moz-linear-gradient(bottom, rgba(44, 59, 69, 0.8) 5%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
+  background: -webkit-gradient(bottom, color-stop(5%, rgba(44, 59, 69, 0.8)), color-stop(50%, rgba(44, 59, 69, 0))), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
+  background: -webkit-linear-gradient(bottom, rgba(44, 59, 69, 0.8) 5%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
+  background: -o-linear-gradient(bottom, #2c3b45 5%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
+  background: -ms-linear-gradient(bottom, #2c3b45 5%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
+  background: linear-gradient(to top, #2c3b45 5%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
   header.container-fluid {
-    padding: 7rem 10rem;
-    margin-top: 56px; }
+    padding: 5rem 10rem;
+    margin-top: 56px;
+    margin-bottom: 3rem; }

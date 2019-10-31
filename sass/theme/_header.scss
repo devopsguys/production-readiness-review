@@ -1,15 +1,16 @@
 header {
 	&.container-fluid {
-		padding: 7rem 10rem;
+		padding: 5rem 10rem;
 		margin-top: 56px;
+		margin-bottom: 3rem;
 	}
 	background: rgba(44, 59, 69, 0.8) url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
-  background: -moz-linear-gradient(bottom, rgba(44, 59, 69, 0.8) 0%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
-  background: -webkit-gradient(bottom, color-stop(0%, rgba(44, 59, 69, 0.8)), color-stop(50%, rgba(44, 59, 69, 0))), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
-  background: -webkit-linear-gradient(bottom, rgba(44, 59, 69, 0.8) 0%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
-  background: -o-linear-gradient(bottom, rgba(44, 59, 69, 1) 0%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
-  background: -ms-linear-gradient(bottom, rgba(44, 59, 69, 1) 0%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
-  background: linear-gradient(to top, rgba(44, 59, 69, 1) 0%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
+  background: -moz-linear-gradient(bottom, rgba(44, 59, 69, 0.8) 5%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
+  background: -webkit-gradient(bottom, color-stop(5%, rgba(44, 59, 69, 0.8)), color-stop(50%, rgba(44, 59, 69, 0))), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
+  background: -webkit-linear-gradient(bottom, rgba(44, 59, 69, 0.8) 5%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
+  background: -o-linear-gradient(bottom, rgba(44, 59, 69, 1) 5%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
+  background: -ms-linear-gradient(bottom, rgba(44, 59, 69, 1) 5%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
+  background: linear-gradient(to top, rgba(44, 59, 69, 1) 5%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
