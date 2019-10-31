@@ -38,8 +38,8 @@
 			<div class="col-12">
 				<h1>Improve Your Production Readiness</h1>
 				<p class="lead pb-4">This online Production Readiness Review will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your Production Readiness journey.</p>
-				<a href="<?='section-' . SectionNameToURLName($survey->sections[0]['SectionName'])?>" class="btn btn-primary mr-0 mr-md-2">Start the Questionnaire</a>
-				<a href="https://github.com/devopsguys/operational-readiness-review" target="_blank" class="btn btn-outline-light mt-3 mt-md-0">Fork us on GitHub</a>
+				<a href="<?='section-' . SectionNameToURLName($survey->sections[0]['SectionName'])?>" class="btn btn-primary mr-0 mr-lg-2">Start the Questionnaire</a>
+				<a href="https://github.com/devopsguys/operational-readiness-review" target="_blank" class="btn btn-outline-light mt-3 mt-lg-0">Fork us on GitHub</a>
 			</div>
 		</div>
 	</header>
@@ -61,7 +61,7 @@
 						</div>
 					</div>
 					<!--Identify next steps-->
-					<div class="card shadow py-2 px-2 mt-5 mt-md-0">
+					<div class="card shadow py-2 px-2 mt-5 mt-lg-0">
 						<div class="card-header d-flex text-left align-items-center shadow rounded">
 							<i class="fas fa-arrow-right fa-3x mr-3 text-primary"></i>
 							<h5 class="card-title">Identify Your Next Steps</h5>
@@ -71,7 +71,7 @@
 						</div>
 					</div>
 					<!--Free and open source-->
-					<div class="card shadow py-2 px-2 mt-5 mt-md-0">
+					<div class="card shadow py-2 px-2 mt-5 mt-lg-0">
 						<div class="card-header d-flex text-left align-items-center shadow rounded">
 							<i class="fas fa-code-branch fa-3x mr-3 text-primary"></i>
 							<h5 class="card-title">Free and Open Source</h5>

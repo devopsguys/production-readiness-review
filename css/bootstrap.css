@@ -7628,6 +7628,11 @@ header {
   background-size: cover;
   -o-background-size: cover; }
   header.container-fluid {
-    padding: 5rem 10rem;
+    padding: 5rem 4rem;
     margin-top: 56px;
     margin-bottom: 3rem; }
+    @media (min-width: 768px) {
+      header.container-fluid {
+        padding: 5rem 10rem;
+        margin-top: 56px;
+        margin-bottom: 3rem; } }

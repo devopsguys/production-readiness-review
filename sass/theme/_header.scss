@@ -1,8 +1,13 @@
 header {
 	&.container-fluid {
-		padding: 5rem 10rem;
+		padding: 5rem 4rem;
 		margin-top: 56px;
 		margin-bottom: 3rem;
+		@include media-breakpoint-up(md) { 	
+			padding: 5rem 10rem;
+			margin-top: 56px;
+			margin-bottom: 3rem;
+		}
 	}
 	background: rgba(44, 59, 69, 0.8) url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
   background: -moz-linear-gradient(bottom, rgba(44, 59, 69, 0.8) 5%, rgba(44, 59, 69, 0) 50%), url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
