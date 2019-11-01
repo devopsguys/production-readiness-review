@@ -26,14 +26,15 @@
 <!-- Three columns of text below the header  -->
 		<div class="row mb-5">
 			<div class="col-12">
-				<div class="card-deck text-left text-md-center header-overlap">
-					
+				<div class="card-deck text-left text-lg-center header-overlap">
+					<?php $count = 0; ?>
 					<?php
 						
 						foreach ($advice as $adviceIndex=>$adviceSection)
 						{	
 							if ( $adviceIndex != '//' ) {
 						?>
+					<?php $count++ ?>
 		
 					<!--Understand where you are-->
 					<div class="card shadow py-2 px-2 mt-5 mt-lg-0">
@@ -49,7 +50,9 @@
 							</p>
 						</div>
 					</div>
-					
+					<?php if ($count % 4 == 0) { 
+                    ?>
+        <div class="w-100"></div>
 					<?php 
 							}
 						} ?>

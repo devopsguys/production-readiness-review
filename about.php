@@ -48,7 +48,7 @@
 <!-- Three columns of text below the header  -->
 		<div class="row mb-5">
 			<div class="col-12">
-				<div class="card-deck text-left text-md-center header-overlap">
+				<div class="card-deck text-left text-lg-center header-overlap">
 					<!--Understand where you are-->
 					<div class="card shadow py-2 px-2">
 						<div class="card-header d-flex text-left align-items-center shadow rounded">
