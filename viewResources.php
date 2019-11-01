@@ -11,12 +11,12 @@
 	
 ?>
 	
-<!-- Header - Improve your Prodcution Readiness  -->
+<!-- Header - Improve your Prodcution Readiness  --> 
 	<header class="container-fluid">
 		<div class="row text-center">
 			<div class="col-12">
 				<h1>Resources</h1>
-				<p class="lead pb-4">Below are a list of resources to help you on your Product Readiness journey.</p>
+				<p class="lead pb-4">Below are a list of resources to help you on your Product Readiness journey.</p> 
 			</div>
 		</div>
 	</header>
@@ -50,12 +50,13 @@
 							</p>
 						</div>
 					</div>
-					<?php if ($count % 4 == 0) { 
+					<?php if ($count % 4 == 0) {}
                     ?>
         <div class="w-100"></div>
 					<?php 
 							}
 						} ?>
+					
 					
 				
 			</div>
