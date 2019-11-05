@@ -27,9 +27,8 @@
 		<div class="row mb-5">
 			<div class="col-12">
 				<div class="card-deck text-left text-lg-center header-overlap">
-					<?php $count = 0; ?>
 					<?php
-						
+						$count = 0;
 						foreach ($advice as $adviceIndex=>$adviceSection)
 						{	
 							$count++ ;
