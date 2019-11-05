@@ -3343,7 +3343,6 @@ input[type="button"].btn-block {
         flex: 1 0 0%;
         flex-direction: column;
         margin-right: 15px;
-        margin-bottom: 0;
         margin-left: 15px; } }
   .card-deck.header-overlap .card-header {
     margin: -3rem 0.75rem 0.5rem 0.75rem;
