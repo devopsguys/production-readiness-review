@@ -46,6 +46,7 @@
   > .btn:not(:last-child):not(.dropdown-toggle),
   > .btn-group:not(:last-child) > .btn {
     @include border-right-radius(0);
+		border-right: solid $btn-border-width $secondary;
   }
 
   > .btn:not(:first-child),

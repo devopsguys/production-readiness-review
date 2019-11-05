@@ -60,31 +60,30 @@
 		?>
 			</div>
 		</div>
-	</div>
-	
-	
-	<!-- Next and previous buttons -->	
+		<!-- Next and previous buttons -->	
 		
-	<div class="row form-group">
-	<div class="text-center col-lg-12">
-		<div class="btn-group btn-group-justified">
-			<?php if ($previousSection != '') { ?>
-			<div class="btn-group">
-				<button type="submit" class="btn btn-primary" onclick="$('form').attr('action', 'section-<?=$previousSection?>');">Previous</button>
+		<div class="row form-group">
+			<div class="text-center col-12">
+				<div class="btn-group btn-group-justified">
+					<?php if ($previousSection != '') { ?>
+					<div class="btn-group">
+						<button type="submit" class="btn btn-primary" onclick="$('form').attr('action', 'section-<?=$previousSection?>');">Previous</button>
+					</div>
+					<?php } ?>
+					<?php if ($nextSection != '') { ?>
+					<div class="btn-group" role="group">
+						<button type="submit" class="btn btn-primary" onclick="$('form').attr('action', 'section-<?=$nextSection?>');">Next</button>
+					</div>
+					<?php } ?>
+				</div>
+				<!-- Show results button if we are on the final section -->
+				<?php if ($nextSection == '') { ?>
+					<button type="submit" class="btn btn-primary" onclick="$('form').attr('action', 'results');">View Results</button>
+				<?php } ?>
 			</div>
-			<?php } ?>
-			<?php if ($nextSection != '') { ?>
-			<div class="btn-group" role="group">
-				<button type="submit" class="btn btn-primary" onclick="$('form').attr('action', 'section-<?=$nextSection?>');">Next</button>
-			</div>
-			<?php } ?>
 		</div>
-		<!-- Show results button if we are on the final section -->
-		<?php if ($nextSection == '') { ?>
-			<button type="submit" class="btn btn-primary" onclick="$('form').attr('action', 'results');">View Results</button>
-		<?php } ?>
 	</div>
-	</div>
+	
 	
 </form>
 	
