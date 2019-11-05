@@ -104,6 +104,9 @@
 					<h4 class="card-header"><?=$question['QuestionText']?></h4>
 					<?php } ?>
 					<div class="card-body">
+						<?php if ($question['Type']='Banner') {?>
+					<p><?=$question['QuestionText']?></p>
+					<?php } ?>
 						<?php 
 							switch ($question['Type']) {
 								case 'Option':
@@ -111,9 +114,6 @@
 									break;
 								case 'Checkbox':
 									renderCheckboxes($question);
-									break;
-								case 'Banner':
-									echo $question['QuestionText'];
 									break;
 							} ?>
 		
