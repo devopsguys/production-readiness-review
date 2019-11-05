@@ -100,11 +100,11 @@
 	
 <!-- Question Card -->
 
-				<div class="card text-left shadow">
+				<div class="card mb-5 px-2 py-2 text-left shadow">
 					<?php if ($question['Type']!='Banner') {?>
-					<h6 class="card-header"><?=$question['QuestionText']?></h6>
+					<h4 class="card-header"><?=$question['QuestionText']?></h4>
 					<?php } ?>
-					<div class="card-body pt-1 pb-1 bg-gradient-secondary">
+					<div class="card-body">
 						<?php 
 							switch ($question['Type']) {
 								case 'Option':
