@@ -32,9 +32,9 @@
 						
 						foreach ($advice as $adviceIndex=>$adviceSection)
 						{	
+							$count++ ;
 							if ( $adviceIndex != '//' ) {
 						?>
-					<?php $count++ ?>
 		
 					<!--Understand where you are-->
 					<div class="card shadow py-2 px-2 mt-5 mt-lg-0">
@@ -50,9 +50,10 @@
 							</p>
 						</div>
 					</div>
-					<?php if ($count % 4 == 0) {}
-                    ?>
-        <div class="w-100"></div>
+					<?php if ($count % 2 == 0) { ?>		
+					<div class="w-100"></div>
+					<?php } ?>
+        
 					<?php 
 							}
 						} ?>
