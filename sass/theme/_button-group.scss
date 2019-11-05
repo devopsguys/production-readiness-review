@@ -52,6 +52,7 @@
   > .btn:not(:first-child),
   > .btn-group:not(:first-child) > .btn {
     @include border-left-radius(0);
+		border-left: solid $btn-border-width $secondary;
   }
 }
 
