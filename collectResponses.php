@@ -106,7 +106,7 @@
 					<div class="card-body">
 						<?php if ($question['Type']='Banner') {?>
 					<!-- Banner -->
-						<p><?=$question['QuestionText']?></p>
+						<p class="text-primary"><?=$question['QuestionText']?></p>
 					<?php } ?>
 						<?php 
 							switch ($question['Type']) {
