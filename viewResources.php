@@ -21,14 +21,14 @@
 		</div>
 	</header>
 
-
+ 
 	<div class="container">
 <!-- Three columns of text below the header  -->
 		<div class="row mb-5">
 			<div class="col-12">
 				<div class="card-deck text-left text-lg-center header-overlap">
 					<?php
-						$count = 0;
+						$count = 1;
 						foreach ($advice as $adviceIndex=>$adviceSection)
 						{	
 							$count++ ;
@@ -36,7 +36,7 @@
 						?>
 		
 					<!--Understand where you are TEST-->
-					<div class="card shadow py-2 px-2 mt-5 mt-lg-0">
+					<div class="card shadow py-2 px-2 mt-5">
 						<div class="card-header d-flex text-left align-items-center shadow rounded">
 							<i class="fas fa-question fa-3x mr-3 text-primary"></i>
 							<h5 class="card-title">
