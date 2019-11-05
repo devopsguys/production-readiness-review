@@ -2424,12 +2424,12 @@ input[type="button"].btn-block {
 .btn-group > .btn-group:not(:last-child) > .btn {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  border-right: solid 2px #2c3b45; }
+  border: solid 2px #2c3b45; }
 .btn-group > .btn:not(:first-child),
 .btn-group > .btn-group:not(:first-child) > .btn {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  border-left: solid 2px #2c3b45; }
+  border: solid 2px #2c3b45; }
 
 .dropdown-toggle-split {
   padding-right: 0.9375rem;
