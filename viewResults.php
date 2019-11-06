@@ -86,8 +86,8 @@
 	<div class="container-fluid">
 		
 		<div class="row">
-			<div class="col-xl-9 col-lg-11 pb-0 rounded text-center text-light mx-auto">
-				<div class="rounded-top p-2 ml-sm-2 ml-xs-2 mt-2 mr-sm-2 mr-xs-2 border-primary border-top border-left border-right" style="opacity: 0.6; background-color: #000000;">
+			<div class="col-12">
+				<div class="mt-5">
 					<canvas  id="chartOverallResults"></canvas>
 				</div>
 			</div>
@@ -97,8 +97,8 @@
 <!-- Results cards -->        
     <div class="container">
 		<div class="row">
-			<div class="col-12text-left">
-                <h1>Resources</h1>
+			<div class="col-12 text-center">
+                <h1>Results</h1>
 				<div>
 						<div class="row">
 							<div class="col-lg-12">
@@ -128,7 +128,7 @@
 										</div>
 									</div>
 									<div class="card shadow py-2 px-2 mt-5">
-										<h5 class="card-header header-overlap">
+										<h5 class="card-header text-left align-items-center shadow rounded">
 											<?=array_keys($resultsSummary)[1]?>
 										</h5>
 										<div class="card-body p-1">
@@ -146,7 +146,7 @@
 							<div class="col-lg-12 mt-sm-4">
                                 <div class="card-deck header-overlap">
                                     <div class="card shadow py-2 px-2 mt-5">
-                                        <h5 class="card-header header-overlap">
+                                        <h5 class="card-header text-left align-items-center shadow rounded">
                                             <?=array_keys($resultsSummary)[2]?>
                                         </h5>
                                         <div class="card-body">
