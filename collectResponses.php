@@ -113,7 +113,7 @@
 									renderCheckboxes($question);
 									break;
                                 case 'Banner': ?>
-									<p> <?php echo $question['QuestionText'];?> </p>
+									<p class="text-primary lead mb-0"> <?php echo $question['QuestionText'];?> </p>
 									<?php break;
 
 							} ?>
