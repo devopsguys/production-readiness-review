@@ -122,14 +122,14 @@
 											Your score: <?=$resultsSummary[array_keys($resultsSummary)[0]]['ScorePercentage']?>%
 										</div>
 									</div>
-									<div class="card border-primary">
-										<h5 class="card-header text-center text-white bg-primary">
+									<div class="card shadow py-2 px-2 mt-5">
+										<h5 class="card-header header-overlap">
 											<?=array_keys($resultsSummary)[1]?>
 										</h5>
 										<div class="card-body p-1">
 											<?php RenderAdvice(array_keys($resultsSummary)[1], true) ?>
 										</div>
-										<div class="card-footer text-center text-white bg-primary">
+										<div class="card-footer text-center">
 											Your score: <?=$resultsSummary[array_keys($resultsSummary)[1]]['ScorePercentage']?>%
 										</div>
 									</div>
@@ -139,14 +139,14 @@
 					
 						<div class="row">
 							<div class="col-lg-12 mt-sm-4">
-								<div class="card border-primary">
-									<h5 class="card-header text-center text-white bg-primary">
+								<div class="card shadow py-2 px-2 mt-5">
+									<h5 class="card-header header-overlap">
 										<?=array_keys($resultsSummary)[2]?>
 									</h5>
-									<div class="card-body p-1">
+									<div class="card-body">
 										<?php RenderAdvice(array_keys($resultsSummary)[2], true) ?>
 									</div>
-									<div class="card-footer text-center text-white bg-primary">
+									<div class="card-footer text-center">
 										Your score: <?=$resultsSummary[array_keys($resultsSummary)[2]]['ScorePercentage']?>%
 									</div>
 								</div>
