@@ -112,9 +112,9 @@
 								case 'Checkbox':
 									renderCheckboxes($question);
 									break;
-                                case 'Banner':
-									echo $question['QuestionText'];
-									break;
+                                case 'Banner': ?>
+									<p> <?php echo $question['QuestionText'];?> </p>
+									<?php break;
 
 							} ?>
 		
