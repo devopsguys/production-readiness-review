@@ -185,9 +185,9 @@
 				pointStyle: 'circle',
 				pointRadius: 5,
 				data: <?=$data?>,
-				pointBackgroundColor: 'rgba(99,255,132,1)',
-				backgroundColor: 'rgba(99, 255, 132, 0.2)',
-				borderColor: 'rgba(99,255,132,1)'
+				pointBackgroundColor: '$primary',
+				backgroundColor: 'rgba(150, 193, 30, 0.2)',
+				borderColor: '$primary'
 				}]
 		},
 		options: {
