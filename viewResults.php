@@ -108,17 +108,17 @@
 				
 						<div class="row">
 							<div class="col-lg-12 mt-1">
-								<div class="card-deck">
-									<div class="card border-primary">
-										<h5 class="card-header text-center text-white bg-primary">
+								<div class="card-deck header-overlap">
+									<div class="card shadow py-2 px-2 mt-5">
+										<h5 class="card-header text-left align-items-center shadow rounded">
 											<?=array_keys($resultsSummary)[0]?>
 										</h5>
-										<div class="card-body p-1">
+										<div class="card-body">
 											<div>
 											<?php RenderAdvice(array_keys($resultsSummary)[0], true) ?>
 											</div>
 										</div>
-										<div class="card-footer text-center text-white bg-primary">
+										<div class="card-footer text-center">
 											Your score: <?=$resultsSummary[array_keys($resultsSummary)[0]]['ScorePercentage']?>%
 										</div>
 									</div>
