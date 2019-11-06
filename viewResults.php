@@ -81,7 +81,8 @@
 	}
 
 ?>
-	
+
+<!-- Results canvas -->
 	<div class="container-fluid">
 		
 		<div class="row">
@@ -92,11 +93,13 @@
 			</div>
 		</div>
     </div>
-        
+
+<!-- Results cards -->        
     <div class="container">
 		<div class="row">
-			<div class="col-xl-9 col-lg-11  pt-0 pb-4 rounded text-left mx-auto">
-				<div class="bg-light rounded-bottom p-2 p-sm-4 border-primary border ml-sm-2 ml-xs-2 mb-2 mr-sm-2 mr-xs-2">
+			<div class="col-12text-left">
+                <h1>Resources</h1>
+				<div>
 						<div class="row">
 							<div class="col-lg-12">
 								<?=$preAmble?>
