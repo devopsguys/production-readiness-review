@@ -185,9 +185,9 @@
 				pointStyle: 'circle',
 				pointRadius: 5,
 				data: <?=$data?>,
-				pointBackgroundColor: '$primary',
+				pointBackgroundColor: 'rgba(150, 193, 30, 1)',
 				backgroundColor: 'rgba(150, 193, 30, 0.2)',
-				borderColor: '$primary'
+				borderColor: 'rgba(150, 193, 30, 1)'
 				}]
 		},
 		options: {
@@ -226,7 +226,7 @@
 							}
 						},
 						pointLabels: {
-							fontSize: 14,
+                            fontSize: 14,
 							fontColor: "white"
 						},
 						gridLines: { color: "white" },
