@@ -91,7 +91,9 @@
 				</div>
 			</div>
 		</div>
-		
+    </div>
+        
+    <div class="container">
 		<div class="row">
 			<div class="col-xl-9 col-lg-11  pt-0 pb-4 rounded text-left mx-auto">
 				<div class="bg-light rounded-bottom p-2 p-sm-4 border-primary border ml-sm-2 ml-xs-2 mb-2 mr-sm-2 mr-xs-2">
@@ -139,17 +141,19 @@
 					
 						<div class="row">
 							<div class="col-lg-12 mt-sm-4">
-								<div class="card shadow py-2 px-2 mt-5">
-									<h5 class="card-header header-overlap">
-										<?=array_keys($resultsSummary)[2]?>
-									</h5>
-									<div class="card-body">
-										<?php RenderAdvice(array_keys($resultsSummary)[2], true) ?>
-									</div>
-									<div class="card-footer text-center">
-										Your score: <?=$resultsSummary[array_keys($resultsSummary)[2]]['ScorePercentage']?>%
-									</div>
-								</div>
+                                <div class="card-deck header-overlap">
+                                    <div class="card shadow py-2 px-2 mt-5">
+                                        <h5 class="card-header header-overlap">
+                                            <?=array_keys($resultsSummary)[2]?>
+                                        </h5>
+                                        <div class="card-body">
+                                            <?php RenderAdvice(array_keys($resultsSummary)[2], true) ?>
+                                        </div>
+                                        <div class="card-footer text-center">
+                                            Your score: <?=$resultsSummary[array_keys($resultsSummary)[2]]['ScorePercentage']?>%
+                                        </div>
+                                    </div>
+                                </div>
 							</div>
 						
 						
