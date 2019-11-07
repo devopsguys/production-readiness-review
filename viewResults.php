@@ -220,7 +220,8 @@
 						},
 						pointLabels: {
                             fontSize: 14,
-							fontColor: "white"
+							fontColor: "white",
+                            fontFamily: "Museo-Sans",
 						},
 						gridLines: { color: "white" },
 						angleLines: { color: "white" }, 
