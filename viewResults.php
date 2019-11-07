@@ -87,7 +87,6 @@
 		<div class="row text-center">
 			<div class="col-12">
 				<h1>Results</h1>
-				<p class="lead pb-4"><?=$preAmble?></p> 
 			</div>
 		</div>
 	</header>
@@ -103,6 +102,12 @@
 
 <!-- Results cards -->        
     <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <?=$preAmble?>
+            </div>
+        </div>
+
 		<div class="row">
 			<div class="col-12">
 				<?php
