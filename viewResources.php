@@ -36,7 +36,7 @@
 						?>
 		
 					<!--Understand where you are TEST-->
-					<div class="card shadow py-2 px-2 mt-5">
+					<div class="card shadow py-2 px-2 mt-5 mt-lg-0">
 						<div class="card-header d-flex text-left align-items-center shadow rounded">
 							<i class="fas fa-question fa-3x mr-3 text-primary"></i>
 							<h5 class="card-title">
@@ -44,9 +44,7 @@
 							</h5>
 						</div>
 						<div class="card-body">
-							<p class="card-text">
 							<?php RenderAdvice($adviceIndex, false) ?>
-							</p>
 						</div>
 					</div>
 					<?php if ($count % 2 == 0) { ?>		
