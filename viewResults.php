@@ -144,7 +144,7 @@
 				    </div>
 				</div>	
 				<div class="row">
-				    <div class="col-lg-12 mt-sm-4">
+				    <div class="col-lg-12">
                         <div class="card-deck header-overlap">
                             <div class="card shadow py-2 px-2 mt-5">
                                 <h5 class="card-header text-left align-items-center shadow rounded">
