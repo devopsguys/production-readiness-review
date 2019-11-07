@@ -13,7 +13,16 @@ h1, h2, h3, h4, h5, h6,
   color: $headings-color;
 }
 
-h1, .h1 { @include font-size($h1-font-size); margin-bottom: 2.5rem; }
+h1, 
+.h1 { 
+    @include font-size($h1-font-size); margin-bottom: 2.5rem; 
+    @include media-breakpoint-up(md) {
+        font-size: 3.5rem;
+      }
+}
+
+
+
 h2, .h2 { @include font-size($h2-font-size); margin-bottom: 2.5rem; }
 h3, .h3 { @include font-size($h3-font-size); }
 h4, .h4 { @include font-size($h4-font-size); }
