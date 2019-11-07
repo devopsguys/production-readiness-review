@@ -30,7 +30,7 @@
 			{
 				"Type" : "Banner",
 				"SubCategory" : "Service Levels",
-				"QuestionText" : "<strong>INFORMATION:</strong> SLIs (Service Level Indicators). SLI's should be measurable and taken from monitoring the environment. If the monitoring detects that the service degrades, this should trigger an actionable alert or automated remediation. You should use shorter timeframes here when looking for issues, for example hourly. Examples might be: <ul><li>Request Latency – 99% of requests per hour for a service are served within 300ms.</li><li>Failures per total number of requests – 99% of requests per hour are successfully completed</li></ul>"
+				"QuestionText" : "<strong>INFORMATION:</strong> SLIs (Service Level Indicators). SLI's should be measurable and taken from monitoring the environment. If the monitoring detects that the service degrades, this should trigger an actionable alert or automated remediation. You should use shorter timeframes here when looking for issues, for example hourly. Examples might be: <ul class='text-primary'><li>Request Latency – 99% of requests per hour for a service are served within 300ms.</li><li>Failures per total number of requests – 99% of requests per hour are successfully completed</li></ul>"
 			},
 			{
 				"Type" : "Option",
