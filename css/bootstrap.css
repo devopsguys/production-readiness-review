@@ -3425,10 +3425,10 @@ input[type="button"].btn-block {
       min-height: 300px; } }
 
 .steve-img {
-  background-image: url(../../images/team-photos/devopsgroup_steve_thair_headshot_001.jpg); }
+  background-image: url("../../images/team-photos/devopsgroup_steve_thair_headshot_002.jpg"); }
 
 .rich-img {
-  background-image: url(../../images/team-photos/RichardSweeney.png); }
+  background-image: url("../../images/team-photos/richard_sweeney_headshot_devopsgroup_002.jpg"); }
 
 .breadcrumb {
   display: flex;
