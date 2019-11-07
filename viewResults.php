@@ -94,12 +94,9 @@
 
 <!-- Results canvas -->
 	<div class="container-fluid">
-		
 		<div class="row">
 			<div class="col-12">
-				<div class="mt-5">
-					<canvas  id="chartOverallResults"></canvas>
-				</div>
+				<canvas  id="chartOverallResults"></canvas>
 			</div>
 		</div>
     </div>
@@ -107,80 +104,60 @@
 <!-- Results cards -->        
     <div class="container">
 		<div class="row">
-			<div class="col-12 text-center">
-                <h1>Results</h1>
-				<div>
-						<div class="row">
-							<div class="col-lg-12">
-								<?=$preAmble?>
-							</div>
-						</div>
+			<div class="col-12">
+				<?php
+                    // Now sort by lowest to highest score
+				    uasort( $resultsSummary, function($a, $b) { return $a['ScorePercentage'] - $b['ScorePercentage']; } );
+				?>
 				
-						<?php
-							// Now sort by lowest to highest score
-							uasort( $resultsSummary, function($a, $b) { return $a['ScorePercentage'] - $b['ScorePercentage']; } );
-						?>
-				
-						<div class="row">
-							<div class="col-lg-12 mt-1">
-								<div class="card-deck header-overlap">
-									<div class="card shadow py-2 px-2 mt-5">
-										<h5 class="card-header text-left align-items-center shadow rounded">
-											<?=array_keys($resultsSummary)[0]?>
-										</h5>
-										<div class="card-body">
-											<div>
-											<?php RenderAdvice(array_keys($resultsSummary)[0], true) ?>
-											</div>
-										</div>
-										<div class="card-footer text-center">
-											Your score: <?=$resultsSummary[array_keys($resultsSummary)[0]]['ScorePercentage']?>%
-										</div>
-									</div>
-									<div class="card shadow py-2 px-2 mt-5">
-										<h5 class="card-header text-left align-items-center shadow rounded">
-											<?=array_keys($resultsSummary)[1]?>
-										</h5>
-										<div class="card-body p-1">
-											<?php RenderAdvice(array_keys($resultsSummary)[1], true) ?>
-										</div>
-										<div class="card-footer text-center">
-											Your score: <?=$resultsSummary[array_keys($resultsSummary)[1]]['ScorePercentage']?>%
-										</div>
-									</div>
+				<div class="row">
+				    <div class="col-lg-12 mt-1">
+				        <div class="card-deck header-overlap">
+				            <div class="card shadow py-2 px-2 mt-5">
+								<h5 class="card-header text-left align-items-center shadow rounded">
+								    <?=array_keys($resultsSummary)[0]?>
+								</h5>
+								<div class="card-body">
+								    <?php RenderAdvice(array_keys($resultsSummary)[0], true) ?>
 								</div>
-							</div>
-						</div>
-					
-						<div class="row">
-							<div class="col-lg-12 mt-sm-4">
-                                <div class="card-deck header-overlap">
-                                    <div class="card shadow py-2 px-2 mt-5">
-                                        <h5 class="card-header text-left align-items-center shadow rounded">
-                                            <?=array_keys($resultsSummary)[2]?>
-                                        </h5>
-                                        <div class="card-body">
-                                            <?php RenderAdvice(array_keys($resultsSummary)[2], true) ?>
-                                        </div>
-                                        <div class="card-footer text-center">
-                                            Your score: <?=$resultsSummary[array_keys($resultsSummary)[2]]['ScorePercentage']?>%
-                                        </div>
-                                    </div>
+								<div class="card-footer text-center">
+								    Your score: <?=$resultsSummary[array_keys($resultsSummary)[0]]['ScorePercentage']?>%
+								</div>
+				            </div>
+				            <div class="card shadow py-2 px-2 mt-5">
+				                <h5 class="card-header text-left align-items-center shadow rounded">
+								    <?=array_keys($resultsSummary)[1]?>
+								</h5>
+								<div class="card-body">
+								    <?php RenderAdvice(array_keys($resultsSummary)[1], true) ?>
+								</div>
+								<div class="card-footer text-center">
+								    Your score: <?=$resultsSummary[array_keys($resultsSummary)[1]]['ScorePercentage']?>%
+								</div>
+				        	</div>
+				        </div>
+				    </div>
+				</div>	
+				<div class="row">
+				    <div class="col-lg-12 mt-sm-4">
+                        <div class="card-deck header-overlap">
+                            <div class="card shadow py-2 px-2 mt-5">
+                                <h5 class="card-header text-left align-items-center shadow rounded">
+                                    <?=array_keys($resultsSummary)[2]?>
+                                </h5>
+                                <div class="card-body">
+                                    <?php RenderAdvice(array_keys($resultsSummary)[2], true) ?>
                                 </div>
-							</div>
-						
-						
-						</div>
-					
-				</div>
+                                <div class="card-footer text-center">
+                                    Your score: <?=$resultsSummary[array_keys($resultsSummary)[2]]['ScorePercentage']?>%
+                                </div>
+                            </div>
+                        </div>
+                    </div>						
+                </div>
 			</div>
-
-			
-		
 		</div>
-		
-	</div>
-	
+    </div>
 <script>
 	
 	Chart.defaults.global.animation.duration = 3000;
