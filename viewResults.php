@@ -188,7 +188,7 @@
 						display: true,
 						text: '<?=$chartTitle?>',
 						fontSize: 16,
-						fontColor: "white"
+						fontColor: "white",
                         fontFamily: "Museo-Sans",
 					},
 					tooltips: {

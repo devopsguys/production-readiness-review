@@ -101,8 +101,8 @@
 
 				<div class="card mb-5 px-2 py-2 text-left shadow">
 					<?php if ($question['Type']!='Banner') {?>
-					<h4 class="card-header"><?=$question['QuestionText']?></h4>
-                    <hr>
+					<h5 class="card-header"><?=$question['QuestionText']?></h5>
+                    <hr class="my-0">
 					<?php } ?>
 					<div class="card-body">
 						<?php 
