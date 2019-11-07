@@ -43,7 +43,7 @@
 			},
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<strong>INFORMATION:</strong> SLOs should be in place and give common incentives across teams. These should act as an early warning system to alert Operations that there is a potential issue before SLAs are exceeded, and provide realistic goals around reliability. Typically, these are measured over longer timeframes than SLIs. <br><br>Error Budgets & Error Budget Policy (consequences) should be defined within certain guidelines. For example:<ul><li>Must be set at the appropriate levels</li><li>Too high and costs can rise rapidly</li><li>Smaller error budget which can impede change</li><li>Too low and your customers will be unhappy</li><ul>"
+				"QuestionText" : "<strong>INFORMATION:</strong> SLOs should be in place and give common incentives across teams. These should act as an early warning system to alert Operations that there is a potential issue before SLAs are exceeded, and provide realistic goals around reliability. Typically, these are measured over longer timeframes than SLIs. <br><br>Error Budgets & Error Budget Policy (consequences) should be defined within certain guidelines. For example:<ul class='text-primary'><li>Must be set at the appropriate levels</li><li>Too high and costs can rise rapidly</li><li>Smaller error budget which can impede change</li><li>Too low and your customers will be unhappy</li><ul>"
 			},
 			{
 				"Type" : "Option",
