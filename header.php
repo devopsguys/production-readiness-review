@@ -153,7 +153,7 @@
 		<meta property="og:title" content="Production Readiness Assessment" />
 		<meta property="og:description" content="This online Production Readiness Assessment questionnaire will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your Operations transition." />
 		<meta property="og:site_name" content="Production Readiness Assessment" />
-		<meta property="og:image" content="<?=GetBaseURL()?>/og-image.jpg" />
+		<meta property="og:image" content="<?=GetBaseURL()?>/images/team-photos/og-image.jpg" />
 		<meta property="og:image:width" content="1680" />
 		<meta property="og:image:height" content="870" />
 		
