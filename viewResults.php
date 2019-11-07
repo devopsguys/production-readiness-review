@@ -189,6 +189,7 @@
 						text: '<?=$chartTitle?>',
 						fontSize: 16,
 						fontColor: "white"
+                        fontFamily: "Museo-Sans",
 					},
 					tooltips: {
 						custom: function(tooltip) {
