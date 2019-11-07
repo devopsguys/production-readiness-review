@@ -24,7 +24,7 @@
  
 	<div class="container">
 <!-- Three columns of text below the header  -->
-		<div class="row mb-5">
+		<div class="row">
 			<div class="col-12">
 				<div class="card-deck text-left header-overlap">
 					<?php
@@ -36,7 +36,7 @@
 						?>
 		
 					<!--Understand where you are TEST-->
-					<div class="card shadow py-2 px-2 mt-5 mt-lg-0">
+					<div class="card shadow py-2 px-2 mt-5">
 						<div class="card-header d-flex text-left align-items-center shadow rounded">
 							<i class="fas fa-question fa-3x mr-3 text-primary"></i>
 							<h5 class="card-title">

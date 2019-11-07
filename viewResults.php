@@ -102,7 +102,7 @@
 
 <!-- Results cards -->        
     <div class="container">
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-lg-12 text-center">
                 <?=$preAmble?>
             </div>
@@ -116,7 +116,7 @@
 				?>
 				
 				<div class="row">
-				    <div class="col-lg-12 mt-1">
+				    <div class="col-lg-12">
 				        <div class="card-deck header-overlap">
 				            <div class="card shadow py-2 px-2 mt-5">
 								<h5 class="card-header text-left align-items-center shadow rounded">
