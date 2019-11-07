@@ -82,6 +82,16 @@
 
 ?>
 
+<!-- Header --> 
+	<header class="container-fluid">
+		<div class="row text-center">
+			<div class="col-12">
+				<h1>Results</h1>
+				<p class="lead pb-4"><?=$preAmble?></p> 
+			</div>
+		</div>
+	</header>
+
 <!-- Results canvas -->
 	<div class="container-fluid">
 		
