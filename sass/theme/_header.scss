@@ -11,6 +11,7 @@ header {
     &.mobile-less-pad {
       @include media-breakpoint-down(sm) {
         padding-bottom: 3rem;
+      }
     }
 	}
 	background: rgba(44, 59, 69, 0.8) url(../../images/team-photos/header_background_001.jpg) no-repeat bottom center fixed;
