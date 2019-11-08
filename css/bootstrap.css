@@ -3009,7 +3009,7 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 0.25rem;
+  padding: 0.5rem 1rem;
   border-bottom: solid 1px #96c11e; }
   .navbar > .container,
   .navbar > .container-fluid {
@@ -3022,12 +3022,15 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  margin-right: 0.25rem;
+  margin-right: 1rem;
   font-size: 1rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
+  @media (min-width: 768px) {
+    .navbar-brand {
+      font-size: 1.25rem; } }
 
 .navbar-nav {
   display: flex;
@@ -7632,7 +7635,7 @@ header {
   background-size: cover;
   -o-background-size: cover; }
   header.container-fluid {
-    padding: 5rem 4rem;
+    padding: 5rem 2rem;
     margin-top: 56px;
     margin-bottom: 3rem; }
     @media (min-width: 768px) {

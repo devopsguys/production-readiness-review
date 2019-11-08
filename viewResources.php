@@ -12,7 +12,7 @@
 ?>
 	
 <!-- Header - Improve your Prodcution Readiness  --> 
-	<header class="container-fluid">
+	<header class="container-fluid pb-3 mb-0">
 		<div class="row text-center">
 			<div class="col-12">
 				<h1>Resources</h1>

@@ -52,6 +52,9 @@
   @include hover-focus {
     text-decoration: none;
   }
+  @include media-breakpoint-up(md) {
+        font-size: 1.25rem;
+      }
 }
 
 
