@@ -83,7 +83,7 @@
 ?>
 
 <!-- Header --> 
-	<header class="container-fluid">
+	<header class="container-fluid mobile-less-pad">
 		<div class="row text-center">
 			<div class="col-12">
 				<h1>Results</h1>
@@ -102,7 +102,7 @@
 
 <!-- Results cards -->        
     <div class="container">
-        <div class="row mb-5">
+        <div class="row mb-4">
             <div class="col-lg-12 text-center">
                 <?=$preAmble?>
             </div>

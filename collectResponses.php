@@ -40,7 +40,7 @@
 
 	
 	<!-- Header -->
-	<header class="container-fluid">
+	<header class="container-fluid mobile-less-pad">
 		<div class="row text-center">
 			<div class="col-12">
 				<h1><?=$survey->sections[$sectionIndex]['SectionName']?></h1>

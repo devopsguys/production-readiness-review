@@ -12,11 +12,11 @@
 ?>
 	
 <!-- Header - Improve your Prodcution Readiness  --> 
-	<header class="container-fluid pb-3 mb-0">
+	<header class="container-fluid pb-sm-2 pb-3 mb-0">
 		<div class="row text-center">
 			<div class="col-12">
 				<h1>Resources</h1>
-				<p class="lead pb-4">Below are a list of resources to help you on your Product Readiness journey.</p> 
+				<p class="lead">Below are a list of resources to help you on your Product Readiness journey.</p> 
 			</div>
 		</div>
 	</header>
