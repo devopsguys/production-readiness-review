@@ -64,7 +64,7 @@
 				}
 				?>
 				
-				<li class="list-group-item"><span class="<?=$icon?> text-primary"></span><?=$paidIcon?>  <a class="card-link" target="_blank" href="<?=$link['Href']?>"><?=$link['Text']?></a></li>
+				<li class="list-group-item"><span class="<?=$icon?> text-primary mr-2"></span><?=$paidIcon?>  <a class="card-link" target="_blank" href="<?=$link['Href']?>"><?=$link['Text']?></a></li>
 			<?php } ?>						
 		</ul>
 	

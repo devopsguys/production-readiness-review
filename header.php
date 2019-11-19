@@ -153,7 +153,7 @@
 		<meta property="og:title" content="Production Readiness Assessment" />
 		<meta property="og:description" content="This online Production Readiness Assessment questionnaire will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your Operations transition." />
 		<meta property="og:site_name" content="Production Readiness Assessment" />
-		<meta property="og:image" content="<?=GetBaseURL()?>/og-image.jpg" />
+		<meta property="og:image" content="<?=GetBaseURL()?>/images/team-photos/og-image.jpg" />
 		<meta property="og:image:width" content="1680" />
 		<meta property="og:image:height" content="870" />
 		
@@ -169,32 +169,16 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="fontawesome/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.typekit.net/kuj3fcy.css">
 
 		<title>Production Readiness Assessment</title>
 		<script src="./js/chart.bundle.min.js"></script>
 		<script src="js/jquery-3.3.1.min.js"></script>		
-		<style>
-			#bigwrapper {
-				background-image: Url('backdrop.jpg');
-				background-repeat: no-repeat;
-				background-position: top center;
-				background-attachment: fixed;
-				backgroun-size: cover;
-				background-color: RGB(2, 2, 1);
-				padding-top: 70px;
-			}
-		
-			@media (max-width: 355px) { 
-				#bigwrapper { padding-top: 100px; }
-			}
-		
-		</style>
+
 		
 	</head>
-	
-	<body id="bigwrapper">
 
-	<nav class="navbar navbar-dark bg-primary fixed-top navbar-expand-md form-group" ">
+	<nav class="navbar navbar-dark bg-secondary fixed-top navbar-expand-lg form-group">
 		<a href="about" class="navbar-brand">Production Readiness Assessment</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 			<span class="navbar-toggler-icon"></span>

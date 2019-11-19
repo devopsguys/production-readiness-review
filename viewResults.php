@@ -81,89 +81,88 @@
 	}
 
 ?>
-	
-	<div class="container-fluid">
-		
-		<div class="row">
-			<div class="col-xl-9 col-lg-11 pb-0 rounded text-center text-light mx-auto">
-				<div class="rounded-top p-2 ml-sm-2 ml-xs-2 mt-2 mr-sm-2 mr-xs-2 border-primary border-top border-left border-right" style="opacity: 0.6; background-color: #000000;">
-					<canvas  id="chartOverallResults"></canvas>
-				</div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col-xl-9 col-lg-11  pt-0 pb-4 rounded text-left mx-auto">
-				<div class="bg-light rounded-bottom p-2 p-sm-4 border-primary border ml-sm-2 ml-xs-2 mb-2 mr-sm-2 mr-xs-2">
-						<div class="row">
-							<div class="col-lg-12">
-								<?=$preAmble?>
-							</div>
-						</div>
-				
-						<?php
-							// Now sort by lowest to highest score
-							uasort( $resultsSummary, function($a, $b) { return $a['ScorePercentage'] - $b['ScorePercentage']; } );
-						?>
-				
-						<div class="row">
-							<div class="col-lg-12 mt-1">
-								<div class="card-deck">
-									<div class="card border-primary">
-										<h5 class="card-header text-center text-white bg-primary">
-											<?=array_keys($resultsSummary)[0]?>
-										</h5>
-										<div class="card-body p-1">
-											<div>
-											<?php RenderAdvice(array_keys($resultsSummary)[0], true) ?>
-											</div>
-										</div>
-										<div class="card-footer text-center text-white bg-primary">
-											Your score: <?=$resultsSummary[array_keys($resultsSummary)[0]]['ScorePercentage']?>%
-										</div>
-									</div>
-									<div class="card border-primary">
-										<h5 class="card-header text-center text-white bg-primary">
-											<?=array_keys($resultsSummary)[1]?>
-										</h5>
-										<div class="card-body p-1">
-											<?php RenderAdvice(array_keys($resultsSummary)[1], true) ?>
-										</div>
-										<div class="card-footer text-center text-white bg-primary">
-											Your score: <?=$resultsSummary[array_keys($resultsSummary)[1]]['ScorePercentage']?>%
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					
-						<div class="row">
-							<div class="col-lg-12 mt-sm-4">
-								<div class="card border-primary">
-									<h5 class="card-header text-center text-white bg-primary">
-										<?=array_keys($resultsSummary)[2]?>
-									</h5>
-									<div class="card-body p-1">
-										<?php RenderAdvice(array_keys($resultsSummary)[2], true) ?>
-									</div>
-									<div class="card-footer text-center text-white bg-primary">
-										Your score: <?=$resultsSummary[array_keys($resultsSummary)[2]]['ScorePercentage']?>%
-									</div>
-								</div>
-							</div>
-						
-						
-						</div>
-					
-				</div>
-			</div>
 
-			
-		
+<!-- Header --> 
+	<header class="container-fluid mobile-less-pad">
+		<div class="row text-center">
+			<div class="col-12">
+				<h1>Results</h1>
+			</div>
 		</div>
-		
-	</div>
-	
+	</header>
+
+<!-- Results canvas -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<canvas  id="chartOverallResults"></canvas>
+			</div>
+		</div>
+    </div>
+
+<!-- Results cards -->        
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-lg-12 text-center">
+                <?=$preAmble?>
+            </div>
+        </div>
+
+		<div class="row">
+			<div class="col-12">
+				<?php
+                    // Now sort by lowest to highest score
+				    uasort( $resultsSummary, function($a, $b) { return $a['ScorePercentage'] - $b['ScorePercentage']; } );
+				?>
+				
+				<div class="row">
+				    <div class="col-lg-12">
+				        <div class="card-deck header-overlap">
+				            <div class="card shadow py-2 px-2 mt-5">
+								<h5 class="card-header text-left align-items-center shadow rounded">
+								    <?=array_keys($resultsSummary)[0]?>
+								</h5>
+								<div class="card-body">
+								    <?php RenderAdvice(array_keys($resultsSummary)[0], true) ?>
+								</div>
+								<div class="card-footer text-center">
+								    Your score: <?=$resultsSummary[array_keys($resultsSummary)[0]]['ScorePercentage']?>%
+								</div>
+				            </div>
+				            <div class="card shadow py-2 px-2 mt-5">
+				                <h5 class="card-header text-left align-items-center shadow rounded">
+								    <?=array_keys($resultsSummary)[1]?>
+								</h5>
+								<div class="card-body">
+								    <?php RenderAdvice(array_keys($resultsSummary)[1], true) ?>
+								</div>
+								<div class="card-footer text-center">
+								    Your score: <?=$resultsSummary[array_keys($resultsSummary)[1]]['ScorePercentage']?>%
+								</div>
+				        	</div>
+				        </div>
+				    </div>
+				</div>	
+				<div class="row">
+				    <div class="col-lg-12">
+                        <div class="card-deck header-overlap">
+                            <div class="card shadow py-2 px-2 mt-5">
+                                <h5 class="card-header text-left align-items-center shadow rounded">
+                                    <?=array_keys($resultsSummary)[2]?>
+                                </h5>
+                                <div class="card-body">
+                                    <?php RenderAdvice(array_keys($resultsSummary)[2], true) ?>
+                                </div>
+                                <div class="card-footer text-center">
+                                    Your score: <?=$resultsSummary[array_keys($resultsSummary)[2]]['ScorePercentage']?>%
+                                </div>
+                            </div>
+                        </div>
+                    </div>						
+                </div>
+			</div>
+		</div>
+    </div>
 <script>
 	
 	Chart.defaults.global.animation.duration = 3000;
@@ -178,9 +177,9 @@
 				pointStyle: 'circle',
 				pointRadius: 5,
 				data: <?=$data?>,
-				pointBackgroundColor: 'rgba(99,255,132,1)',
-				backgroundColor: 'rgba(99, 255, 132, 0.2)',
-				borderColor: 'rgba(99,255,132,1)'
+				pointBackgroundColor: 'rgba(150, 193, 30, 1)',
+				backgroundColor: 'rgba(150, 193, 30, 0.2)',
+				borderColor: 'rgba(150, 193, 30, 1)'
 				}]
 		},
 		options: {
@@ -189,7 +188,8 @@
 						display: true,
 						text: '<?=$chartTitle?>',
 						fontSize: 16,
-						fontColor: "white"
+						fontColor: "white",
+                        fontFamily: "Museo-Sans",
 					},
 					tooltips: {
 						custom: function(tooltip) {
@@ -219,8 +219,9 @@
 							}
 						},
 						pointLabels: {
-							fontSize: 14,
-							fontColor: "white"
+                            fontSize: 14,
+							fontColor: "white",
+                            fontFamily: "Museo-Sans",
 						},
 						gridLines: { color: "white" },
 						angleLines: { color: "white" }, 

@@ -11,45 +11,58 @@
 	
 ?>
 	
-	<div class="container-fluid">
-		
+<!-- Header - Improve your Prodcution Readiness  --> 
+	<header class="container-fluid pb-sm-2 pb-3 mb-0">
+		<div class="row text-center">
+			<div class="col-12">
+				<h1>Resources</h1>
+				<p class="lead">Below are a list of resources to help you on your Product Readiness journey.</p> 
+			</div>
+		</div>
+	</header>
+
+ 
+	<div class="container">
+<!-- Three columns of text below the header  -->
 		<div class="row">
-			<div class="col-xl-9 col-lg-11  pt-0 pb-4 rounded text-left mx-auto">
-				<div class="bg-light rounded pl-2 pl-sm-4 pr-2 pr-sm-4 pb-2 pb-sm-4 border-primary border ml-sm-2 ml-xs-2 mb-2 mr-sm-2 mr-xs-2">
-						
-						<?php
-						
+			<div class="col-12">
+				<div class="card-deck text-left header-overlap">
+					<?php
+						$count = 1;
 						foreach ($advice as $adviceIndex=>$adviceSection)
 						{	
+							$count++ ;
 							if ( $adviceIndex != '//' ) {
 						?>
-						
-						<div class="row">
-							<div class="col-lg-12 mt-2 mt-sm-4">
-								<div class="card border-primary">
-									<h5 class="card-header text-center text-white bg-primary">
-										<?=$adviceIndex?>
-									</h5>
-									<div class="card-body p-1">
-										<?php RenderAdvice($adviceIndex, false) ?>
-									</div>
-								</div>
-							</div>
-						
-						
+		
+					<!--Understand where you are TEST-->
+					<div class="card shadow py-2 px-2 mt-5">
+						<div class="card-header d-flex text-left align-items-center shadow rounded">
+							<i class="fas fa-question fa-3x mr-3 text-primary"></i>
+							<h5 class="card-title">
+							<?=$adviceIndex?>
+							</h5>
 						</div>
-						
-						<?php 
+						<div class="card-body">
+							<?php RenderAdvice($adviceIndex, false) ?>
+						</div>
+					</div>
+					<?php if ($count % 2 == 0) { ?>		
+					<div class="w-100"></div>
+					<?php } ?>
+        
+					<?php 
 							}
 						} ?>
-				</div>
+					
+					
+				
 			</div>
-
-			
-		
 		</div>
-		
 	</div>
+</div>
+
+
 	
 <?php
 	

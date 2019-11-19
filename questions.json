@@ -16,7 +16,7 @@
 		"Questions" : [
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Prioritise Service Levels appropriately. This helps identify how much effort to allocate for reliability of each service. This is important for microservices so teams can reliably build dependencies on your service."
+				"QuestionText" : "<strong>INFORMATION:</strong> Prioritise Service Levels appropriately. This helps identify how much effort to allocate for reliability of each service. This is important for microservices so teams can reliably build dependencies on your service."
 			},
 			{
 				"Type" : "Option",
@@ -30,7 +30,7 @@
 			{
 				"Type" : "Banner",
 				"SubCategory" : "Service Levels",
-				"QuestionText" : "<B>INFORMATION:</B> SLIs (Service Level Indicators). SLI's should be measurable and taken from monitoring the environment. If the monitoring detects that the service degrades, this should trigger an actionable alert or automated remediation. You should use shorter timeframes here when looking for issues, for example hourly. Examples might be: <ul><li>Request Latency – 99% of requests per hour for a service are served within 300ms.</li><li>Failures per total number of requests – 99% of requests per hour are successfully completed</li></ul>"
+				"QuestionText" : "<strong>INFORMATION:</strong> SLIs (Service Level Indicators). SLI's should be measurable and taken from monitoring the environment. If the monitoring detects that the service degrades, this should trigger an actionable alert or automated remediation. You should use shorter timeframes here when looking for issues, for example hourly. Examples might be: <ul class='text-primary'><li>Request Latency – 99% of requests per hour for a service are served within 300ms.</li><li>Failures per total number of requests – 99% of requests per hour are successfully completed</li></ul>"
 			},
 			{
 				"Type" : "Option",
@@ -43,7 +43,7 @@
 			},
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> SLOs should be in place and give common incentives across teams. These should act as an early warning system to alert Operations that there is a potential issue before SLAs are exceeded, and provide realistic goals around reliability. Typically, these are measured over longer timeframes than SLIs. <br><br>Error Budgets & Error Budget Policy (consequences) should be defined within certain guidelines. For example:<ul><li>Must be set at the appropriate levels</li><li>Too high and costs can rise rapidly</li><li>Smaller error budget which can impede change</li><li>Too low and your customers will be unhappy</li><ul>"
+				"QuestionText" : "<strong>INFORMATION:</strong> SLOs should be in place and give common incentives across teams. These should act as an early warning system to alert Operations that there is a potential issue before SLAs are exceeded, and provide realistic goals around reliability. Typically, these are measured over longer timeframes than SLIs. <br><br>Error Budgets & Error Budget Policy (consequences) should be defined within certain guidelines. For example:<ul class='text-primary'><li>Must be set at the appropriate levels</li><li>Too high and costs can rise rapidly</li><li>Smaller error budget which can impede change</li><li>Too low and your customers will be unhappy</li><ul>"
 			},
 			{
 				"Type" : "Option",
@@ -130,7 +130,7 @@
 		"Questions" : [
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Highly Available & Redundant"
+				"QuestionText" : "<strong>INFORMATION:</strong> Highly Available & Redundant"
 			},
 			{
 				"Type" : "Option",
@@ -217,7 +217,7 @@
 
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> On-boarding new developers"
+				"QuestionText" : "<strong>INFORMATION:</strong> On-boarding new developers"
 			},
 			{
 				"Type" : "Checkbox",
@@ -232,7 +232,7 @@
 			},
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Security Best Practice Review"
+				"QuestionText" : "<strong>INFORMATION:</strong> Security Best Practice Review"
 			},
 			
 			{
@@ -285,7 +285,7 @@
 			{
 				"Type" : "Banner",
 				"SubCategory" : "Continuous Improvement",
-				"QuestionText" : "<B>INFORMATION:</B> Continuous Improvement: Obtain Peer Review / Fresh eyes. Use Kaizen (small, ongoing positive improvements of working practices). Consider rotating developers off projects every few months to gain fresh eyes on projects. This is easier when pushing small batches."
+				"QuestionText" : "<strong>INFORMATION:</strong> Continuous Improvement: Obtain Peer Review / Fresh eyes. Use Kaizen (small, ongoing positive improvements of working practices). Consider rotating developers off projects every few months to gain fresh eyes on projects. This is easier when pushing small batches."
 			},
 			{
 				"Type" : "Checkbox",
@@ -305,7 +305,7 @@
 		"Questions" : [
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Run Load Tests & Understand Limits"
+				"QuestionText" : "<strong>INFORMATION:</strong> Run Load Tests & Understand Limits"
 			},
 			{
 				"Type" : "Option",
@@ -348,7 +348,7 @@
 		"Questions" : [
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Documentation for your App and Platform"
+				"QuestionText" : "<strong>INFORMATION:</strong> Documentation for your App and Platform"
 			},
 			{
 				"Type" : "Checkbox",
@@ -361,7 +361,7 @@
 			},			
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Documentation - Standard Operating Procedures"
+				"QuestionText" : "<strong>INFORMATION:</strong> Documentation - Standard Operating Procedures"
 			},
 			{
 				"Type" : "Checkbox",
@@ -390,7 +390,7 @@
 
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Monitoring - Insight"
+				"QuestionText" : "<strong>INFORMATION:</strong> Monitoring - Insight"
 			},
 			{
 				"Type" : "Option",
@@ -432,7 +432,7 @@
 			},
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Monitoring - Customer"
+				"QuestionText" : "<strong>INFORMATION:</strong> Monitoring - Customer"
 			},
 			{
 				"Type" : "Checkbox",
@@ -448,7 +448,7 @@
 			},
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Monitoring - Code"
+				"QuestionText" : "<strong>INFORMATION:</strong> Monitoring - Code"
 			},
 			{
 				"Type" : "Checkbox",
@@ -501,7 +501,7 @@
 			},
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Monitoring - Security"
+				"QuestionText" : "<strong>INFORMATION:</strong> Monitoring - Security"
 			},
 			{
 				"Type" : "Option",
@@ -523,7 +523,7 @@
 			},
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Monitoring - Team / access"
+				"QuestionText" : "<strong>INFORMATION:</strong> Monitoring - Team / access"
 			},
 			{
 				"Type" : "Checkbox",
@@ -539,7 +539,7 @@
 			},
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Logging"
+				"QuestionText" : "<strong>INFORMATION:</strong> Logging"
 			},	
 			{
 				"Type" : "Option",
@@ -579,7 +579,7 @@
 			},
 			{
 				"Type" : "Banner",
-				"QuestionText" : "<B>INFORMATION:</B> Alerting"
+				"QuestionText" : "<strong>INFORMATION:</strong> Alerting"
 			},	
 			{
 				"Type" : "Option",
