@@ -10,7 +10,7 @@ header {
 		}
     &.mobile-less-pad {
       @include media-breakpoint-down(sm) {
-        padding-bottom: 3rem;
+        padding-bottom: 1rem;
       }
     }
 	}
