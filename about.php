@@ -37,7 +37,7 @@
 		<div class="row text-center">
 			<div class="col-12">
 				<h1>Improve Your Production Readiness</h1>
-				<p class="lead pb-4">This online Production Readiness Review will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your Production Readiness journey.</p>
+				<p class="lead pb-4">This online Production Readiness Checklist will help you understand your current strengths and weaknesses and then recommend resources that can support you in taking the next steps on your Production Readiness journey.</p>
 				<a href="<?='section-' . SectionNameToURLName($survey->sections[0]['SectionName'])?>" class="btn btn-primary mr-0 mr-sm-2">Start the Questionnaire</a>
 				<a href="https://github.com/devopsguys/production-readiness-review" target="_blank" class="btn btn-outline-light mt-3 mt-sm-0">Fork us on GitHub</a>
 			</div>
@@ -78,7 +78,7 @@
 						</div>
 						<div class="card-body">
 							<p class="card-text">This tool is made available under the MIT License: you are free to use, adapt and redistribute it, both for commercial and non-commercial use. There is no obligation to share your changes, although we always appreciate feedback!</p>
-							<a href="https://github.com/devopsguys/operational-readiness-review" class="card-link">Why not fork us on GitHub?</a>
+							<a href="https://github.com/devopsguys/production-readiness-review" class="card-link">Why not fork us on GitHub?</a>
 						</div>
 					</div>
 				</div>
