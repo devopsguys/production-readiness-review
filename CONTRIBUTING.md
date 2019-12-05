@@ -1,4 +1,4 @@
-# Welcome to the Production Readiness Review! (PRR)
+# Welcome to the Production Readiness Checklist! (PRC)
 
 We're making it easier to understand how to improve solutions production readiness, and we'd love to have
 your help.
