@@ -78,7 +78,7 @@
 						</div>
 						<div class="card-body">
 							<p class="card-text">This tool is made available under the MIT License: you are free to use, adapt and redistribute it, both for commercial and non-commercial use. There is no obligation to share your changes, although we always appreciate feedback!</p>
-							<a href="https://github.com/devopsguys/operational-readiness-review" class="card-link">Why not fork us on GitHub?</a>
+							<a href="https://github.com/devopsguys/production-readiness-review" class="card-link">Why not fork us on GitHub?</a>
 						</div>
 					</div>
 				</div>
