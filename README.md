@@ -9,7 +9,6 @@
 
 This is a simple, survey-based tool, to help teams assess where they currently are on their Production Readiness and to help them identify next steps for further improvement.
 
-
 Getting Help
 ============
 
@@ -66,3 +65,4 @@ This source code is released under the [MIT license](https://github.com/atosorig
 * [Comfortaa Font](https://github.com/alexeiva/comfortaa)
 * [Markus Spiske](https://unsplash.com/@markusspiske) for background image, published on [Unsplash](https://unsplash.com/)
 * [Vojtech Bruzek](https://unsplash.com/@vojtechbruzek) for og-image.jpg, published on [Unsplash](https://unsplash.com/)
+
