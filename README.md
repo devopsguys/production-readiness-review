@@ -2,14 +2,12 @@
 
 | Build Status | |
 | ------------ | - |
-| **master** branch CI builds | [![Build Status](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_apis/build/status/devopsguys.production-readiness-review-build?branchName=master)](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_build/latest?definitionId=3&branchName=master) |
 | **master** branch QA Release | [![Build Status](https://vsrm.dev.azure.com/DevOpsGroupLtd/_apis/public/Release/badge/68da88e0-91b0-4f79-9d6f-f4c34ee53d1f/2/3)](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_release?view=mine&definitionId=2) |
 | **master** branch Prod Release | [![Build Status](https://vsrm.dev.azure.com/DevOpsGroupLtd/_apis/public/Release/badge/68da88e0-91b0-4f79-9d6f-f4c34ee53d1f/2/4)](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_release?view=mine&definitionId=2) |
 
 ## Overview
 
 This is a simple, survey-based tool, to help teams assess where they currently are on their Production Readiness and to help them identify next steps for further improvement.
-
 
 Getting Help
 ============
@@ -67,3 +65,4 @@ This source code is released under the [MIT license](https://github.com/atosorig
 * [Comfortaa Font](https://github.com/alexeiva/comfortaa)
 * [Markus Spiske](https://unsplash.com/@markusspiske) for background image, published on [Unsplash](https://unsplash.com/)
 * [Vojtech Bruzek](https://unsplash.com/@vojtechbruzek) for og-image.jpg, published on [Unsplash](https://unsplash.com/)
+
