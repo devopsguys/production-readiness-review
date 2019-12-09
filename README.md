@@ -25,7 +25,7 @@ We ask that you not open a GitHub Issue for help, only for bug reports.
 
 **Reporting Security Issues**
 
-Please have a look at SECURITY.md.
+Please have a look at [SECURITY.md](SECURITY.md).
 
 How Can I Contribute?
 ==================================
