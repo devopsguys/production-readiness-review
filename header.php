@@ -145,6 +145,48 @@
 <!doctype html>
 <html lang="en">
 	<head>
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script> 
+<script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#21333a",
+        "text": "#ffffff"
+      },
+      "button": {
+        "background": "transparent",
+        "text": "#ffe600",
+        "border": "#ffe600"
+      }
+    },
+    "position": "bottom-right",
+    "content": {
+      "href": "/privacy-cookies.php"
+    }
+  })});
+  </script> 
+    
+    <script src="js/cookieconsent.min.js"></script>
+  <script>
+   window.cookieconsent.initialise({
+    container: document.getElementById("content"),
+    palette:{
+     popup: {background: "#fff"},
+     button: {background: "#aa0000"},
+    },
+    revokable:true,
+    onStatusChange: function(status) {
+     console.log(this.hasConsented() ?
+      'enable cookies' : 'disable cookies');
+    },
+    law: {
+     regionalLaw: false,
+    },
+    location: true,
+   });
+  </script>
+    
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38563910-6"></script>
   <script>
@@ -185,28 +227,6 @@
 		<title>Production Readiness Checklist</title>
 		<script src="./js/chart.bundle.min.js"></script>
 		<script src="js/jquery-3.3.1.min.js"></script>		
-		
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script> 
-<script>
-  window.addEventListener("load", function(){
-  window.cookieconsent.initialise({
-    "palette": {
-      "popup": {
-        "background": "#21333a",
-        "text": "#ffffff"
-      },
-      "button": {
-        "background": "transparent",
-        "text": "#ffe600",
-        "border": "#ffe600"
-      }
-    },
-    "position": "bottom-right",
-    "content": {
-      "href": "/privacy-cookies.php"
-    }
-  })});
-  </script> 
 		
 	</head>
 
