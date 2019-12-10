@@ -145,47 +145,26 @@
 <!doctype html>
 <html lang="en">
 	<head>
-  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script> 
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script>
-  window.addEventListener("load", function(){
-  window.cookieconsent.initialise({
-    "palette": {
-      "popup": {
-        "background": "#21333a",
-        "text": "#ffffff"
-      },
-      "button": {
-        "background": "transparent",
-        "text": "#ffe600",
-        "border": "#ffe600"
-      }
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#2c3b45",
+      "text": "#ffffff"
     },
-    "position": "bottom-right",
-    "content": {
-      "href": "/privacy-cookies.php"
+    "button": {
+      "background": "#96c11e",
+      "text": "#ffffff"
     }
-  })});
-  </script> 
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/dark-bottom.css"></script>
-  <script>
-   window.cookieconsent.initialise({
-    container: document.getElementById("content"),
-    palette:{
-     popup: {background: "#fff"},
-     button: {background: "#aa0000"},
-    },
-    revokable:true,
-    onStatusChange: function(status) {
-     console.log(this.hasConsented() ?
-      'enable cookies' : 'disable cookies');
-    },
-    law: {
-     regionalLaw: false,
-    },
-    location: true,
-   });
-  </script>
+  },
+  "position": "bottom-right",
+  "content": {
+    "href": "https://www.devopsgroup.com/privacy-policy/"
+  }
+});
+</script>
     
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38563910-6"></script>
