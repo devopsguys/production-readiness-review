@@ -145,14 +145,37 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-154155283-1”></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag(‘js’, new Date());
-			gtag(‘config’, ‘UA-154155283-1’);
-		</script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+  window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#516573",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#96c11e",
+      "text": "#ffffff"
+    }
+  },
+  "position": "bottom-right",
+  "content": {
+    "href": "https://www.devopsgroup.com/privacy-policy/"
+  }
+ })});
+</script>
+    
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38563910-6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-38563910-6');
+    </script>
 		
 		<!-- Required meta tags -->
 		
@@ -184,8 +207,6 @@
 		<title>Production Readiness Checklist</title>
 		<script src="./js/chart.bundle.min.js"></script>
 		<script src="js/jquery-3.3.1.min.js"></script>		
-		
-
 		
 	</head>
 
