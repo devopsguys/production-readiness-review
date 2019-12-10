@@ -145,14 +145,15 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-154155283-1”></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag(‘js’, new Date());
-			gtag(‘config’, ‘UA-154155283-1’);
-		</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38563910-6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-38563910-6');
+    </script>
 		
 		<!-- Required meta tags -->
 		
@@ -185,7 +186,27 @@
 		<script src="./js/chart.bundle.min.js"></script>
 		<script src="js/jquery-3.3.1.min.js"></script>		
 		
-
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script> 
+<script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#21333a",
+        "text": "#ffffff"
+      },
+      "button": {
+        "background": "transparent",
+        "text": "#ffe600",
+        "border": "#ffe600"
+      }
+    },
+    "position": "bottom-right",
+    "content": {
+      "href": "/privacy-cookies.php"
+    }
+  })});
+  </script> 
 		
 	</head>
 
