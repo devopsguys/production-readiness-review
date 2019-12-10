@@ -167,7 +167,7 @@
   })});
   </script> 
     
-    <script src="js/cookieconsent.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/dark-bottom.css"></script>
   <script>
    window.cookieconsent.initialise({
     container: document.getElementById("content"),
