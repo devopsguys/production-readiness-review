@@ -9,6 +9,8 @@
 
 This is a simple, survey-based tool, to help teams assess where they currently are on their Production Readiness and to help them identify next steps for further improvement.
 
+![app-overview](https://user-images.githubusercontent.com/31866877/71824694-15f5a500-3092-11ea-8fc6-5058fada821b.gif)
+
 Getting Help
 ============
 
