@@ -553,7 +553,7 @@
 			{
 				"Type" : "Option",
 				"SubCategory" : "Logging",
-				"QuestionText" : "Do your logs contain event severity levels (e.g. informational, warning, critical) and user consistent timestamps across components including UTC & microseconds?",
+				"QuestionText" : "Do your logs contain event severity levels (e.g. informational, warning, critical) and use consistent timestamps across components including UTC & microseconds?",
 				"Answers" : [
 					{"Answer" : "Yes", "Score" : 0.25},
 					{"Answer" : "No", "Score" : 0}
