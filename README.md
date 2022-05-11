@@ -5,6 +5,10 @@
 | **master** branch QA Release | [![Build Status](https://vsrm.dev.azure.com/devopsgroup/_apis/public/Release/badge/ac67e7f8-9836-4845-b294-bde0af165f24/3/4)](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_release?view=mine&definitionId=2) |
 | **master** branch Prod Release | [![Build Status](https://vsrm.dev.azure.com/devopsgroup/_apis/public/Release/badge/ac67e7f8-9836-4845-b294-bde0af165f24/3/5)](https://dev.azure.com/DevOpsGroupLtd/Production%20Readiness%20Review/_release?view=mine&definitionId=2) |
 
+## Hosting
+
+The primary implementation of this website is located at [productionreadinesschecklist.devopsgroup.com](https://productionreadinesschecklist.devopsgroup.com).
+
 ## Overview
 
 This is a simple, survey-based tool, to help teams assess where they currently are on their Production Readiness and to help them identify next steps for further improvement.
@@ -16,7 +20,7 @@ Getting Help
 
 **Reporting Bugs**
 
-Please open a [GitHub Issue](https://github.com/devopsguys/production-readiness-review/issues) 
+Please open a [GitHub Issue](https://github.com/devopsguys/production-readiness-review/issues)
 and include as much information as possible.  If possible, provide sample code
 that illustrates the problem you're seeing.  If you're seeing a bug only
 on a specific repository, please provide a link to it if possible.
@@ -30,8 +34,8 @@ Please have a look at [SECURITY.md](SECURITY.md).
 How Can I Contribute?
 ==================================
 
-We welcome new contributors!  Please review  [GitHub Issue](https://github.com/devopsguys/production-readiness-review/issues) 
-as a good place to jump in and get started.  
+We welcome new contributors!  Please review  [GitHub Issue](https://github.com/devopsguys/production-readiness-review/issues)
+as a good place to jump in and get started.
 Fork us and submit a pull request! If you are updating questions.json or advice.json, please check that it passes a JSON validator (such as JSONLint).
 Please be sure to check the [contribution guidelines](https://github.com/devopsguys/production-readiness-review/blob/master/CONTRIBUTING.md) to
 understand our workflow
@@ -40,7 +44,7 @@ If you would like to adjust colours/branding for your own purpose, please do thi
 
 ## Installation
 
-This is a PHP application that should run on any server that supports PHP 5.5 or higher with Mod_Rewrite enabled. 
+This is a PHP application that should run on any server that supports PHP 5.5 or higher with Mod_Rewrite enabled.
 
 ## Technical Overview
 
@@ -56,7 +60,7 @@ This is a PHP application that should run on any server that supports PHP 5.5 or
 
 ## License
 
-This source code is released under the [MIT license](https://github.com/atosorigin/DevOpsMaturityAssessment/blob/master/LICENSE). Bootstrap and Chart.js are also released under the [MIT license](https://github.com/atosorigin/DevOpsMaturityAssessment/blob/master/LICENSE). Font Awesome Free and Comfortaa is provided under the [SIL OFL 1.1 License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL) 
+This source code is released under the [MIT license](https://github.com/atosorigin/DevOpsMaturityAssessment/blob/master/LICENSE). Bootstrap and Chart.js are also released under the [MIT license](https://github.com/atosorigin/DevOpsMaturityAssessment/blob/master/LICENSE). Font Awesome Free and Comfortaa is provided under the [SIL OFL 1.1 License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 
 ## Credits
 
@@ -67,4 +71,3 @@ This source code is released under the [MIT license](https://github.com/atosorig
 * [Comfortaa Font](https://github.com/alexeiva/comfortaa)
 * [Markus Spiske](https://unsplash.com/@markusspiske) for background image, published on [Unsplash](https://unsplash.com/)
 * [Vojtech Bruzek](https://unsplash.com/@vojtechbruzek) for og-image.jpg, published on [Unsplash](https://unsplash.com/)
-
